@@ -1,6 +1,54 @@
 {
-  "updated": "2026-07-07 KST",
+  "updated": "2026-07-07 20:15 KST",
   "items": [
+    {
+      "id": "2026-07-hf-minimax-m3",
+      "name": "MiniMax-M3",
+      "category": "LLM",
+      "type": "huggingface",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+      "org": "MiniMaxAI",
+      "added": "2026-07-07",
+      "status": "active",
+      "desc": "428B(활성 23B) MoE, 텍스트·이미지·비디오 네이티브 멀티모달. MiniMax Sparse Attention으로 1M 컨텍스트 지원",
+      "stats": "2026-06-07 공개 · GGUF·NVFP4 커뮤니티 양자화 존재"
+    },
+    {
+      "id": "2026-07-hf-qwen-agentworld",
+      "name": "Qwen-AgentWorld-35B-A3B",
+      "category": "LLM",
+      "type": "huggingface",
+      "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+      "org": "Qwen",
+      "added": "2026-07-07",
+      "status": "active",
+      "desc": "35B(활성 3B) MoE — 최초의 에이전트 전용 언어 세계모델(LWM). MCP·Search·Terminal·SWE·Android·Web·OS 7개 도메인 시뮬레이션. Apache 2.0",
+      "stats": "2026-06-24 공개 · Qwen3.5-35B-A3B 대비 +8.66"
+    },
+    {
+      "id": "2026-07-hf-deepseek-dspark",
+      "name": "DeepSeek-V4-Pro-DSpark",
+      "category": "LLM",
+      "type": "huggingface",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
+      "org": "deepseek-ai",
+      "added": "2026-07-07",
+      "status": "active",
+      "desc": "V4-Pro에 추측 디코딩 모듈을 얹은 추론 최적화 체크포인트 — 출력 동일, 속도 57~78% 향상. MIT, 학습 코드 DeepSpec도 공개",
+      "stats": "2026-06-27 공개 · 1.6T 총 파라미터(활성 49B)"
+    },
+    {
+      "id": "2026-07-gh-gastown",
+      "name": "gastown",
+      "category": "에이전트도구",
+      "type": "github",
+      "url": "https://github.com/gastownhall/gastown",
+      "org": "gastownhall",
+      "added": "2026-07-07",
+      "status": "active",
+      "desc": "Claude Code·Copilot·Codex·Gemini 등 여러 코딩 에이전트를 조율하는 멀티 에이전트 워크스페이스 매니저 — git 기반 상태 유지",
+      "stats": "GitHub 트렌딩 상위 · ★16.7k"
+    },
     {
       "id": "2026-07-hf-glm-5-2",
       "name": "GLM-5.2",
@@ -22,8 +70,8 @@
       "org": "tencent",
       "added": "2026-07-07",
       "status": "active",
-      "desc": "Tencent 신규 오픈 MoE LLM — 295B(활성 21B), Apache 2.0, 256K 컨텍스트. 공개 직후 트렌딩 진입",
-      "stats": "♥ 360 (공개 직후)"
+      "desc": "Tencent 신규 오픈 MoE LLM — 295B(활성 21B), Apache 2.0, 256K 컨텍스트. SWE-bench Verified 78 · GPQA Diamond 90.4",
+      "stats": "♥ 362 · HF·ModelScope·GitCode·CNB 4개 플랫폼"
     },
     {
       "id": "2026-07-hf-leanstral-1-5",

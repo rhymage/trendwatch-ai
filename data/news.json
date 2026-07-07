@@ -1,6 +1,45 @@
 {
-  "updated": "2026-07-07 KST",
+  "updated": "2026-07-07 20:15 KST",
   "items": [
+    {
+      "id": "2026-07-07-N17",
+      "date": "2026-07-07",
+      "title": "ByteDance, Seedance 2.5 공개 롤아웃 시작 — Dreamina·Jimeng 우선 배포",
+      "summary": "7월 3일부터 폐쇄 엔터프라이즈 베타를 넘어 공개 롤아웃 시작. 자사 플랫폼 Dreamina(해외)·Jimeng(중국) 우선, CapCut(MAU 4억+)은 7월 중순, Volcano Engine API 서드파티 접근은 7월 말 예정. 성능은 아직 독립 검증 전.",
+      "url": "https://www.techtimes.com/articles/319639/20260703/bytedance-seedance-25-launches-this-week-native-30-second-ai-video-carries-copyright-cloud.htm",
+      "source": "TechTimes",
+      "tags": ["생성형모델"],
+      "importance": "high"
+    },
+    {
+      "id": "2026-07-07-N16",
+      "date": "2026-07-07",
+      "title": "MiniMax M3 오픈웨이트 공개 — 428B MoE, 네이티브 멀티모달·1M 컨텍스트",
+      "summary": "총 428B(활성 23B) MoE 모델로 텍스트·이미지·비디오를 처음부터 함께 학습한 네이티브 멀티모달 구조. 신규 어텐션 설계 MiniMax Sparse Attention(MSA)으로 1M 토큰 컨텍스트 지원. HF 공식 저장소 공개, 커뮤니티 양자화(GGUF·NVFP4)도 이미 등장.",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
+      "source": "Hugging Face",
+      "tags": ["LLM"],
+      "importance": "high"
+    },
+    {
+      "id": "2026-07-07-N15",
+      "date": "2026-07-07",
+      "title": "Qwen-AgentWorld 공개 — 에이전트 전용 '언어 세계모델' 최초 사례",
+      "summary": "6월 24일 공개된 35B(활성 3B) MoE 모델로, MCP·Search·Terminal·SWE·Android·Web·OS 7개 도메인의 에이전트 환경을 하나의 모델로 시뮬레이션(다음 상태 예측)한다. Apache 2.0. 기존 Qwen3.5-35B-A3B 대비 관련 벤치마크 +8.66 개선.",
+      "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+      "source": "Hugging Face · Qwen",
+      "tags": ["LLM", "에이전트도구"],
+      "importance": "high"
+    },
+    {
+      "id": "2026-07-07-N14",
+      "date": "2026-07-07",
+      "title": "DeepSeek DSpark 공개 — 재학습 없이 추론 속도 57~78% 향상",
+      "summary": "6월 27일 공개. 추측 디코딩(speculative decoding) 기법으로 V4-Flash·V4-Pro 위에 소형 드래프트 모듈을 얹어 출력은 동일하게 유지하면서 속도만 크게 높였다. MIT 라이선스로 코드 공개, 학습용 코드베이스 DeepSpec도 함께 공개.",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
+      "source": "Hugging Face · DeepSeek",
+      "tags": ["LLM"]
+    },
     {
       "id": "2026-07-07-N01",
       "date": "2026-07-07",
