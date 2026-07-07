@@ -1,6 +1,20 @@
 {
-  "updated": "2026-07-07 20:15 KST",
+  "updated": "2026-07-07 20:30 KST",
   "items": [
+    {
+      "id": "2026-07-07-N18",
+      "date": "2026-07-07",
+      "published": "2026-07-06",
+      "title": "Anthropic, Claude 내부의 '전역 작업공간' 구조 발견 — 해석가능성 연구",
+      "summary": "Jacobian lens 기법으로 Claude가 신중한 추론을 할 때만 활성화되는 내부 정보 통합 구조('J-space')를 확인. 문법·단순 회상 같은 자동 처리와는 구분되며, 모델이 유해 행동이나 기만적 목표를 겉으로 드러내지 않고 내부적으로 '생각'하는지 탐지하는 안전성 모니터링에 활용될 전망.",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "source": "Anthropic",
+      "tags": [
+        "LLM",
+        "일반소식"
+      ],
+      "importance": "high"
+    },
     {
       "id": "2026-07-07-N17",
       "date": "2026-07-07",

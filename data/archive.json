@@ -1,6 +1,30 @@
 {
-  "updated": "2026-07-07 20:15 KST",
+  "updated": "2026-07-07 20:30 KST",
   "items": [
+    {
+      "id": "2026-07-hf-kyutai-pocket-tts",
+      "name": "pocket-tts",
+      "category": "오디오",
+      "type": "huggingface",
+      "url": "https://huggingface.co/kyutai/pocket-tts",
+      "org": "kyutai",
+      "added": "2026-07-07",
+      "status": "active",
+      "desc": "1억 파라미터 CPU 전용 경량 TTS — 보이스 클로닝 지원, MacBook Air M4에서 실시간 6배속. CC-BY-4.0",
+      "stats": "초기 지연 ~200ms · 영어만 지원(다국어 예정)"
+    },
+    {
+      "id": "2026-07-gh-claude-video",
+      "name": "claude-video",
+      "category": "에이전트도구",
+      "type": "github",
+      "url": "https://github.com/bradautomates/claude-video",
+      "org": "bradautomates",
+      "added": "2026-07-07",
+      "status": "active",
+      "desc": "코딩 에이전트가 유튜브·틱톡 등 영상을 다운로드·프레임 추출·자막 생성해 직접 분석하게 해주는 도구. MIT",
+      "stats": "★4.7k"
+    },
     {
       "id": "2026-07-hf-minimax-m3",
       "name": "MiniMax-M3",
