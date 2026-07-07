@@ -1,0 +1,89 @@
+{
+  "updated": "2026-07-07 KST",
+  "items": [
+    {
+      "id": "2026-07-hf-glm-5-2",
+      "name": "GLM-5.2",
+      "category": "LLM",
+      "type": "huggingface",
+      "url": "https://huggingface.co/zai-org/GLM-5.2",
+      "org": "zai-org (Z.ai)",
+      "added": "2026-07-07",
+      "status": "active",
+      "desc": "MIT 라이선스 오픈웨이트 코딩 최강급. 1M 컨텍스트, SWE-bench Pro 62.1%",
+      "stats": "다운로드 231k · ♥ 3.5k"
+    },
+    {
+      "id": "2026-07-hf-tencent-hy3",
+      "name": "Hy3",
+      "category": "LLM",
+      "type": "huggingface",
+      "url": "https://huggingface.co/tencent/Hy3",
+      "org": "tencent",
+      "added": "2026-07-07",
+      "status": "active",
+      "desc": "Tencent 신규 오픈 MoE LLM — 295B(활성 21B), Apache 2.0, 256K 컨텍스트. 공개 직후 트렌딩 진입",
+      "stats": "♥ 360 (공개 직후)"
+    },
+    {
+      "id": "2026-07-hf-leanstral-1-5",
+      "name": "Leanstral-1.5-119B-A6B",
+      "category": "LLM",
+      "type": "huggingface",
+      "url": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+      "org": "mistralai",
+      "added": "2026-07-07",
+      "status": "active",
+      "desc": "Mistral 신규 오픈웨이트 MoE (119B, 활성 6B) — 경량 활성 파라미터 노선",
+      "stats": "♥ 143 (공개 4일차)"
+    },
+    {
+      "id": "2026-07-hf-krea-2-raw",
+      "name": "Krea-2-Raw",
+      "category": "이미지",
+      "type": "huggingface",
+      "url": "https://huggingface.co/krea/Krea-2-Raw",
+      "org": "krea",
+      "added": "2026-07-07",
+      "status": "active",
+      "desc": "12B DiT 언디스틸 베이스 체크포인트 — 파인튜닝·LoRA 학습용. Community License(50석 미만 상업 무료)",
+      "stats": "2026-06-23 공개"
+    },
+    {
+      "id": "2026-07-hf-krea-2-turbo",
+      "name": "Krea-2-Turbo",
+      "category": "이미지",
+      "type": "huggingface",
+      "url": "https://huggingface.co/krea/Krea-2-Turbo",
+      "org": "krea",
+      "added": "2026-07-07",
+      "status": "active",
+      "desc": "Krea 2 8스텝 증류판 — 컨슈머 GPU에서 네이티브 2K 이미지 약 2초 생성",
+      "stats": "2026-06-23 공개"
+    },
+    {
+      "id": "2026-07-gh-officecli",
+      "name": "OfficeCLI",
+      "category": "에이전트도구",
+      "type": "github",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "org": "iOfficeAI",
+      "added": "2026-07-07",
+      "status": "active",
+      "desc": "AI 에이전트용 오피스 스위트 — 에이전트가 CLI로 문서·스프레드시트를 다루게 하는 도구",
+      "stats": "HN 149pt"
+    },
+    {
+      "id": "2026-07-gh-agent-skills",
+      "name": "agent-skills",
+      "category": "에이전트도구",
+      "type": "github",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "org": "addyosmani",
+      "added": "2026-07-07",
+      "status": "active",
+      "desc": "AI 코딩 에이전트용 프로덕션급 엔지니어링 스킬 모음 — GitHub 트렌딩 상위",
+      "stats": "★ 71k (+1.1k/일)"
+    }
+  ]
+}

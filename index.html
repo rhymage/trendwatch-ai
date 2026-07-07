@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TrendWatch AI — AI 뉴스 데일리</title>
+<meta name="description" content="AI 업계 소식을 매일 수집해 태그로 분류한 데일리 리포트">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --ink: #1a1d21; --sub: #5c6470;
+    --line: #e3e6ea; --accent: #4f46e5; --accent-soft: #eef2ff;
+    --hi-bg: #fffbeb; --hi-line: #fde68a; --hi-fg: #92400e;
+    --nav-w: 220px;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font-family: "Pretendard", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+         line-height: 1.65; font-size: 15px; }
+  a { color: var(--accent); }
+  /* ── 사이드바 ── */
+  nav#sidebar { position: fixed; top: 0; left: 0; bottom: 0; width: var(--nav-w);
+                background: #1c2128; color: #e6e8eb; padding: 24px 0; overflow-y: auto; }
+  .nav-title { font-size: 17px; font-weight: 800; padding: 0 20px 14px;
+               letter-spacing: -0.3px; border-bottom: 1px solid #333a44;
+               display: flex; align-items: center; gap: 9px; }
+  .nav-title img { width: 26px; height: 26px; border-radius: 6px; }
+  .nav-title small { display: block; font-weight: 400; color: #8b949e; font-size: 11.5px; }
+  .nav-pages { margin: 12px 0 4px; padding: 0 12px; display: flex; gap: 6px; }
+  .nav-pages a { flex: 1; text-align: center; padding: 7px 0; border-radius: 8px;
+                 color: #adb5bd; text-decoration: none; font-size: 13px; font-weight: 700; }
+  .nav-pages a.on { background: var(--accent); color: #fff; }
+  .nav-pages a:not(.on):hover { background: #262d36; color: #fff; }
+  .nav-sec { padding: 14px 20px 6px; font-size: 11px; font-weight: 700; color: #6e7781;
+             text-transform: uppercase; letter-spacing: .6px; }
+  #date-nav { list-style: none; margin: 0; padding: 0; }
+  #date-nav a { display: block; padding: 8px 20px; color: #adb5bd; text-decoration: none;
+                font-size: 13.5px; font-weight: 600; border-left: 3px solid transparent; }
+  #date-nav a:hover { background: #262d36; color: #fff; }
+  #date-nav a.active { background: #262d36; color: #fff; border-left-color: var(--accent); }
+  #date-nav .navsub { display: block; font-size: 11px; font-weight: 400; color: #6e7781; }
+  .nav-updated { padding: 16px 20px; font-size: 11.5px; color: #6e7781; }
+  /* ── 본문 ── */
+  main { margin-left: var(--nav-w); padding: 32px 24px 64px; }
+  .wrap { max-width: 860px; margin: 0 auto; }
+  header.page h1 { font-size: 26px; margin: 0 0 4px; letter-spacing: -0.5px; }
+  header.page p { color: var(--sub); font-size: 14px; margin: 0 0 20px; }
+  /* ── 태그 필터 ── */
+  #tagbar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 30px;
+            position: sticky; top: 0; background: var(--bg); padding: 12px 0; z-index: 5; }
+  .chip { border: 1px solid var(--line); background: var(--card); color: var(--sub);
+          border-radius: 999px; padding: 5px 14px; font-size: 13px; font-weight: 600;
+          cursor: pointer; user-select: none; font-family: inherit; }
+  .chip:hover { border-color: var(--accent); color: var(--accent); }
+  .chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .chip .cnt { opacity: .65; font-weight: 400; margin-left: 3px; font-size: 12px; }
+  /* ── 날짜 섹션 · 카드 ── */
+  h2.date-h { font-size: 18px; margin: 40px 0 14px; padding-bottom: 8px;
+              border-bottom: 2px solid var(--ink); letter-spacing: -0.3px; scroll-margin-top: 70px; }
+  h2.date-h small { color: var(--sub); font-weight: 400; font-size: 13px; margin-left: 8px; }
+  .item { background: var(--card); border: 1px solid var(--line); border-radius: 13px;
+          padding: 16px 20px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,.04);
+          scroll-margin-top: 70px; }
+  .item.hi { background: var(--hi-bg); border-color: var(--hi-line); }
+  .item .badges { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin-bottom: 6px; }
+  .tag { font-size: 12px; font-weight: 700; color: var(--accent); background: var(--accent-soft);
+         border: 1px solid #c7d2fe; padding: 1px 9px; border-radius: 6px; cursor: pointer; }
+  .src { font-size: 12.5px; color: var(--sub); }
+  .item.hi .src::before { content: "★ "; color: var(--hi-fg); }
+  .item h3 { margin: 2px 0 6px; font-size: 16.5px; letter-spacing: -0.3px; line-height: 1.45; }
+  .item h3 a { color: var(--ink); text-decoration: none; }
+  .item h3 a:hover { color: var(--accent); text-decoration: underline; }
+  .item p.sum { margin: 0; font-size: 14px; color: #3a4048; }
+  .item .link { font-size: 13px; font-weight: 600; text-decoration: none; }
+  .item .link:hover { text-decoration: underline; }
+  #empty { color: var(--sub); text-align: center; padding: 80px 0; }
+  footer { margin-left: var(--nav-w); padding: 24px; text-align: center;
+           color: var(--sub); font-size: 12.5px; }
+  @media (max-width: 760px) {
+    nav#sidebar { position: static; width: auto; padding: 14px 0 6px; }
+    #date-nav { display: flex; overflow-x: auto; }
+    #date-nav a { border-left: none; white-space: nowrap; }
+    .nav-updated { display: none; }
+    main, footer { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+
+<nav id="sidebar">
+  <div class="nav-title"><img src="favicon.svg" alt="">
+    <span>TrendWatch AI<small>AI 뉴스 데일리</small></span></div>
+  <div class="nav-pages">
+    <a href="index.html" class="on">뉴스</a>
+    <a href="archive.html">아카이브</a>
+  </div>
+  <div class="nav-sec">수집일</div>
+  <ul id="date-nav"></ul>
+  <div class="nav-updated" id="updated"></div>
+</nav>
+
+<main>
+  <div class="wrap">
+    <header class="page">
+      <h1>AI 뉴스</h1>
+      <p>태그를 눌러 필터링하세요 (복수 선택 가능)</p>
+    </header>
+    <div id="tagbar"></div>
+    <div id="feed"><div id="empty">데이터를 불러오는 중…</div></div>
+  </div>
+</main>
+
+<footer>TrendWatch AI — 매일 자동 수집 · 요약은 참고용, 정확한 내용은 원문 링크 확인</footer>
+
+<script>
+const TAGS = ["일반소식","LLM","생성형모델","빅테크플랫폼","하드웨어","신규플랫폼","ComfyUI",
+              "오픈모델-이미지","오픈모델-비디오","오픈모델-LoRA","오픈모델-Workflow","에이전트도구"];
+const sel = new Set();
+let items = [];
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c =>
+  ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+function renderTagbar() {
+  const counts = {};
+  items.forEach(it => (it.tags || []).forEach(t => counts[t] = (counts[t] || 0) + 1));
+  document.getElementById("tagbar").innerHTML =
+    `<button class="chip ${sel.size === 0 ? "on" : ""}" data-tag="">전체<span class="cnt">${items.length}</span></button>` +
+    TAGS.map(t => `<button class="chip ${sel.has(t) ? "on" : ""}" data-tag="${esc(t)}">${esc(t)}<span class="cnt">${counts[t] || 0}</span></button>`).join("");
+}
+
+function renderFeed() {
+  const shown = sel.size === 0 ? items : items.filter(it => (it.tags || []).some(t => sel.has(t)));
+  const feed = document.getElementById("feed");
+  if (shown.length === 0) { feed.innerHTML = `<div id="empty">해당 태그의 소식이 없습니다.</div>`; renderNav([]); return; }
+  const byDate = {};
+  shown.forEach(it => (byDate[it.date] = byDate[it.date] || []).push(it));
+  const dates = Object.keys(byDate).sort().reverse();
+  feed.innerHTML = dates.map(d => `
+    <h2 class="date-h" id="d${d}">${d}<small>${byDate[d].length}건</small></h2>
+    ${byDate[d].map(it => `
+    <article class="item ${it.importance === "high" ? "hi" : ""}" id="${esc(it.id)}">
+      <div class="badges">
+        ${(it.tags || []).map(t => `<span class="tag" data-tag="${esc(t)}">${esc(t)}</span>`).join("")}
+        <span class="src">${esc(it.source)}</span>
+      </div>
+      <h3><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a></h3>
+      <p class="sum">${esc(it.summary)} <a class="link" href="${esc(it.url)}" target="_blank" rel="noopener">원문 ↗</a></p>
+    </article>`).join("")}`).join("");
+  renderNav(dates.map(d => [d, byDate[d].length]));
+}
+
+function renderNav(dates) {
+  document.getElementById("date-nav").innerHTML = dates.map(([d, n]) =>
+    `<li><a href="#d${d}">${d}<span class="navsub">${n}건</span></a></li>`).join("");
+}
+
+document.addEventListener("click", e => {
+  const el = e.target.closest("[data-tag]");
+  if (!el) return;
+  const t = el.dataset.tag;
+  if (t === "") sel.clear();
+  else sel.has(t) ? sel.delete(t) : sel.add(t);
+  renderTagbar(); renderFeed();
+});
+
+fetch("data/news.json").then(r => r.json()).then(d => {
+  items = (d.items || []).sort((a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id));
+  document.getElementById("updated").textContent = d.updated ? `마지막 수집: ${d.updated}` : "";
+  renderTagbar(); renderFeed();
+}).catch(() => {
+  document.getElementById("empty").textContent = "아직 수집된 데이터가 없습니다.";
+});
+</script>
+</body>
+</html>
