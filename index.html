@@ -67,6 +67,8 @@
          border: 1px solid #c7d2fe; padding: 1px 9px; border-radius: 6px; cursor: pointer; }
   .src { font-size: 12.5px; color: var(--sub); }
   .item.hi .src::before { content: "★ "; color: var(--hi-fg); }
+  .pub { font-size: 12px; color: var(--sub); opacity: .85; }
+  .pub::before { content: "· "; }
   .item h3 { margin: 2px 0 6px; font-size: 16.5px; letter-spacing: -0.3px; line-height: 1.45; }
   .item h3 a { color: var(--ink); text-decoration: none; }
   .item h3 a:hover { color: var(--accent); text-decoration: underline; }
@@ -113,10 +115,17 @@
 <footer>TrendWatch AI — 매일 자동 수집 · 요약은 참고용, 정확한 내용은 원문 링크 확인</footer>
 
 <script>
-const TAGS = ["일반소식","LLM","생성형모델","빅테크플랫폼","하드웨어","신규플랫폼","ComfyUI",
-              "오픈모델-이미지","오픈모델-비디오","오픈모델-LoRA","오픈모델-Workflow","에이전트도구"];
+const BASE_TAGS = ["일반소식","LLM","생성형모델","빅테크플랫폼","하드웨어","신규플랫폼","ComfyUI",
+                   "오픈모델-이미지","오픈모델-비디오","오픈모델-LoRA","오픈모델-Workflow","에이전트도구"];
 const sel = new Set();
 let items = [];
+
+// 태그 목록은 기본 태그 + 데이터에 등장하는 새 태그를 자동 병합 (등장 순서대로 뒤에 추가)
+function allTags() {
+  const tags = [...BASE_TAGS];
+  items.forEach(it => (it.tags || []).forEach(t => { if (!tags.includes(t)) tags.push(t); }));
+  return tags;
+}
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c =>
   ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -126,7 +135,7 @@ function renderTagbar() {
   items.forEach(it => (it.tags || []).forEach(t => counts[t] = (counts[t] || 0) + 1));
   document.getElementById("tagbar").innerHTML =
     `<button class="chip ${sel.size === 0 ? "on" : ""}" data-tag="">전체<span class="cnt">${items.length}</span></button>` +
-    TAGS.map(t => `<button class="chip ${sel.has(t) ? "on" : ""}" data-tag="${esc(t)}">${esc(t)}<span class="cnt">${counts[t] || 0}</span></button>`).join("");
+    allTags().map(t => `<button class="chip ${sel.has(t) ? "on" : ""}" data-tag="${esc(t)}">${esc(t)}<span class="cnt">${counts[t] || 0}</span></button>`).join("");
 }
 
 function renderFeed() {
@@ -143,6 +152,7 @@ function renderFeed() {
       <div class="badges">
         ${(it.tags || []).map(t => `<span class="tag" data-tag="${esc(t)}">${esc(t)}</span>`).join("")}
         <span class="src">${esc(it.source)}</span>
+        ${it.published ? `<span class="pub">게시 ${esc(it.published)}${it.published.includes(":") ? " KST" : " (현지일)"}</span>` : ""}
       </div>
       <h3><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a></h3>
       <p class="sum">${esc(it.summary)} <a class="link" href="${esc(it.url)}" target="_blank" rel="noopener">원문 ↗</a></p>

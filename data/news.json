@@ -4,116 +4,158 @@
     {
       "id": "2026-07-07-N17",
       "date": "2026-07-07",
+      "published": "2026-07-03",
       "title": "ByteDance, Seedance 2.5 공개 롤아웃 시작 — Dreamina·Jimeng 우선 배포",
       "summary": "7월 3일부터 폐쇄 엔터프라이즈 베타를 넘어 공개 롤아웃 시작. 자사 플랫폼 Dreamina(해외)·Jimeng(중국) 우선, CapCut(MAU 4억+)은 7월 중순, Volcano Engine API 서드파티 접근은 7월 말 예정. 성능은 아직 독립 검증 전.",
       "url": "https://www.techtimes.com/articles/319639/20260703/bytedance-seedance-25-launches-this-week-native-30-second-ai-video-carries-copyright-cloud.htm",
       "source": "TechTimes",
-      "tags": ["생성형모델"],
+      "tags": [
+        "생성형모델"
+      ],
       "importance": "high"
     },
     {
       "id": "2026-07-07-N16",
       "date": "2026-07-07",
+      "published": "2026-06-02 16:49",
       "title": "MiniMax M3 오픈웨이트 공개 — 428B MoE, 네이티브 멀티모달·1M 컨텍스트",
       "summary": "총 428B(활성 23B) MoE 모델로 텍스트·이미지·비디오를 처음부터 함께 학습한 네이티브 멀티모달 구조. 신규 어텐션 설계 MiniMax Sparse Attention(MSA)으로 1M 토큰 컨텍스트 지원. HF 공식 저장소 공개, 커뮤니티 양자화(GGUF·NVFP4)도 이미 등장.",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3",
       "source": "Hugging Face",
-      "tags": ["LLM"],
+      "tags": [
+        "LLM"
+      ],
       "importance": "high"
     },
     {
       "id": "2026-07-07-N15",
       "date": "2026-07-07",
+      "published": "2026-06-22 23:49",
       "title": "Qwen-AgentWorld 공개 — 에이전트 전용 '언어 세계모델' 최초 사례",
       "summary": "6월 24일 공개된 35B(활성 3B) MoE 모델로, MCP·Search·Terminal·SWE·Android·Web·OS 7개 도메인의 에이전트 환경을 하나의 모델로 시뮬레이션(다음 상태 예측)한다. Apache 2.0. 기존 Qwen3.5-35B-A3B 대비 관련 벤치마크 +8.66 개선.",
       "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
       "source": "Hugging Face · Qwen",
-      "tags": ["LLM", "에이전트도구"],
+      "tags": [
+        "LLM",
+        "에이전트도구"
+      ],
       "importance": "high"
     },
     {
       "id": "2026-07-07-N14",
       "date": "2026-07-07",
+      "published": "2026-06-27 12:02",
       "title": "DeepSeek DSpark 공개 — 재학습 없이 추론 속도 57~78% 향상",
       "summary": "6월 27일 공개. 추측 디코딩(speculative decoding) 기법으로 V4-Flash·V4-Pro 위에 소형 드래프트 모듈을 얹어 출력은 동일하게 유지하면서 속도만 크게 높였다. MIT 라이선스로 코드 공개, 학습용 코드베이스 DeepSpec도 함께 공개.",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark",
       "source": "Hugging Face · DeepSeek",
-      "tags": ["LLM"]
+      "tags": [
+        "LLM"
+      ]
     },
     {
       "id": "2026-07-07-N01",
       "date": "2026-07-07",
+      "published": "2026-06-30",
       "title": "Anthropic, Claude Sonnet 5 출시 — Opus 4.8급 성능을 절반 이하 가격에",
       "summary": "6월 30일 출시된 Sonnet 5가 Free·Pro 플랜 기본 모델이 됐다. 에이전트 성능(추론·도구 사용·코딩)이 Opus 4.8에 근접하면서 8월 31일까지 입력 $2/M 프로모션 가격. 이후 $3/M으로 전환.",
       "url": "https://www.anthropic.com/news/claude-sonnet-5",
       "source": "Anthropic",
-      "tags": ["LLM", "빅테크플랫폼"],
+      "tags": [
+        "LLM",
+        "빅테크플랫폼"
+      ],
       "importance": "high"
     },
     {
       "id": "2026-07-07-N02",
       "date": "2026-07-07",
+      "published": "2026-06-24",
       "title": "ByteDance Seedance 2.5 발표 — 네이티브 30초 원패스 생성, 레퍼런스 50개",
       "summary": "이어붙이기 없이 30초 클립을 한 번에 생성하고 멀티모달 레퍼런스를 최대 50개까지 받는다. 3D 화이트박스 프리비즈 기능 추가. 현재 엔터프라이즈 베타, 7월 초 공개 예정. Seedance 2.0도 네이티브 4K(10bit)로 업그레이드.",
       "url": "https://www.techtimes.com/articles/318975/20260624/bytedance-seedance-25-native-30-second-ai-video-no-stitching-required.htm",
       "source": "TechTimes",
-      "tags": ["생성형모델"],
+      "tags": [
+        "생성형모델"
+      ],
       "importance": "high"
     },
     {
       "id": "2026-07-07-N03",
       "date": "2026-07-07",
+      "published": "2026-06-29",
       "title": "Comfy MCP 공개 — 에이전트를 ComfyUI 생태계에 직접 연결",
       "summary": "6월 29일 공개. Claude·Codex·Cursor 같은 코딩 에이전트를 MCP로 ComfyUI 전체 생태계(노드·워크플로우)에 연결할 수 있다. 에이전트가 워크플로우를 직접 구성·실행하는 방향의 공식 지원.",
       "url": "https://blog.comfy.org/p/comfy-mcp-turn-your-agent-into-a",
       "source": "ComfyUI Blog",
-      "tags": ["ComfyUI", "에이전트도구"],
+      "tags": [
+        "ComfyUI",
+        "에이전트도구"
+      ],
       "importance": "high"
     },
     {
       "id": "2026-07-07-N04",
       "date": "2026-07-07",
+      "published": "2026-06-23",
       "title": "Krea 2 오픈웨이트 공개 — 12B DiT 이미지 모델 RAW·Turbo 두 체크포인트",
       "summary": "6월 22~23일 공개. RAW는 파인튜닝·LoRA 학습용 베이스, Turbo는 8스텝 증류판으로 컨슈머 GPU에서 2K 이미지를 약 2초에 생성. Krea 2 Community License(50석 미만 상업 이용 무료).",
       "url": "https://www.krea.ai/krea-2-open-source",
       "source": "Krea",
-      "tags": ["오픈모델-이미지", "생성형모델"]
+      "tags": [
+        "오픈모델-이미지",
+        "생성형모델"
+      ]
     },
     {
       "id": "2026-07-07-N05",
       "date": "2026-07-07",
+      "published": "2026-06-25",
       "title": "Seedance 2.0 Mini·4K, ComfyUI에서 사용 가능",
       "summary": "6월 25일부터 ComfyUI에서 Seedance 2.0의 경량(Mini) 버전과 4K 버전을 쓸 수 있다. API 노드 방식으로 고해상도 영상 생성 워크플로우에 바로 연결 가능.",
       "url": "https://blog.comfy.org/p/seedance-20-mini-and-4k-is-now-available",
       "source": "ComfyUI Blog",
-      "tags": ["ComfyUI", "생성형모델"]
+      "tags": [
+        "ComfyUI",
+        "생성형모델"
+      ]
     },
     {
       "id": "2026-07-07-N06",
       "date": "2026-07-07",
+      "published": "2026-06-24",
       "title": "HappyHorse 1.1 ComfyUI 지원 — 오디오 네이티브 영상 생성",
       "summary": "대사·효과음을 영상과 함께 생성하는 오디오 네이티브 모델 HappyHorse 1.1이 6월 24일 ComfyUI에 추가됐다. 멀티 캐릭터 일관성 지원이 특징.",
       "url": "https://blog.comfy.org/p/happyhorse-11-is-now-available-in",
       "source": "ComfyUI Blog",
-      "tags": ["ComfyUI", "생성형모델"]
+      "tags": [
+        "ComfyUI",
+        "생성형모델"
+      ]
     },
     {
       "id": "2026-07-07-N07",
       "date": "2026-07-07",
+      "published": "2026-06-16 16:39",
       "title": "GLM-5.2, 오픈웨이트 코딩 모델 선두로 — 'AI 마진 붕괴' 논쟁 촉발",
       "summary": "Z.ai의 MIT 라이선스 모델 GLM-5.2(1M 컨텍스트)가 SWE-bench Pro 62.1%로 오픈웨이트 최강. HF 트렌딩 상위에 오르며 '오픈모델이 프론티어 가격을 무너뜨린다'는 분석 글이 HN 프론트페이지에 올랐다.",
       "url": "https://huggingface.co/zai-org/GLM-5.2",
       "source": "Hugging Face · HN",
-      "tags": ["LLM"]
+      "tags": [
+        "LLM"
+      ]
     },
     {
       "id": "2026-07-07-N08",
       "date": "2026-07-07",
+      "published": "2026-06-29",
       "title": "Meituan, 1.6T 파라미터 LongCat-2.0 MIT 라이선스로 공개",
       "summary": "6월 29일 공개. 1.6조 파라미터 규모의 오픈웨이트 모델로 SWE-Bench Pro 59.5%. 중국 빅테크의 초대형 모델 오픈소스화 흐름이 이어지고 있다.",
       "url": "https://www.devflokers.com/blog/open-source-ai-roundup-june-2026",
       "source": "devFlokers",
-      "tags": ["LLM"]
+      "tags": [
+        "LLM"
+      ]
     },
     {
       "id": "2026-07-07-N09",
@@ -122,7 +164,10 @@
       "summary": "Sol은 Terminal-Bench 2.1 신기록, Terra는 GPT-5.5급 성능을 절반 비용에, Luna는 최속·최저가 포지션. OpenAI의 3단 라인업 전략이 구체화됐다.",
       "url": "https://llm-stats.com/llm-updates",
       "source": "LLM Stats",
-      "tags": ["LLM", "빅테크플랫폼"]
+      "tags": [
+        "LLM",
+        "빅테크플랫폼"
+      ]
     },
     {
       "id": "2026-07-07-N10",
@@ -131,34 +176,46 @@
       "summary": "프론티어 모델 출시 전 벤치마크·테스트 일정·접근 규칙을 정하는 자율 표준 프레임워크가 이번 주 발표될 수 있다는 보도. 6월 Fable 5 수출통제 사태 이후 규제·업계 조율 움직임.",
       "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
       "source": "Crescendo AI News",
-      "tags": ["일반소식"]
+      "tags": [
+        "일반소식"
+      ]
     },
     {
       "id": "2026-07-07-N11",
       "date": "2026-07-07",
+      "published": "2026-06-30",
       "title": "Anthropic, Claude Science 공개 + Fable 5 서비스 복구",
       "summary": "연구자용 워크벤치 Claude Science(60+ 도구, Pro 이상 베타)와 소외질병 대상 신약개발 프로그램을 발표. 6월 12일 수출통제로 내려갔던 Fable 5는 7월 1일 전면 복구됐다.",
       "url": "https://cybernews.com/ai-news/anthropic-ai-claude-science-sonnet-5-launch/",
       "source": "Cybernews",
-      "tags": ["빅테크플랫폼", "신규플랫폼"]
+      "tags": [
+        "빅테크플랫폼",
+        "신규플랫폼"
+      ]
     },
     {
       "id": "2026-07-07-N12",
       "date": "2026-07-07",
+      "published": "2026-07-06",
       "title": "AMD Ryzen AI Halo — $4,000 로컬 AI 개발 키트 공개",
       "summary": "로컬에서 대형 모델을 돌리는 개발자용 키트로 HN에서 화제(300pt). 통합메모리 기반 로컬 AI 워크스테이션 시장에서 NVIDIA DGX Spark 계열과 경쟁 구도.",
       "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
       "source": "LTT Labs",
-      "tags": ["하드웨어"]
+      "tags": [
+        "하드웨어"
+      ]
     },
     {
       "id": "2026-07-07-N13",
       "date": "2026-07-07",
+      "published": "2025-12-18",
       "title": "NVIDIA RTX PRO 5000 72GB Blackwell 정식 출시",
       "summary": "데스크톱용 72GB 대용량 VRAM GPU가 정식 판매 시작. 로컬 에이전틱·생성형 AI 워크로드(대형 비디오·이미지 모델 로컬 구동)를 겨냥한 메모리 확장 옵션.",
       "url": "https://blogs.nvidia.com/blog/rtx-pro-5000-72gb-blackwell-gpu/",
       "source": "NVIDIA Blog",
-      "tags": ["하드웨어"]
+      "tags": [
+        "하드웨어"
+      ]
     }
   ]
 }

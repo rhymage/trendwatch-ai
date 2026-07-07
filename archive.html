@@ -110,8 +110,15 @@
 <footer>TrendWatch AI — 매일 자동 수집 · 상세 정보는 원본 링크 확인</footer>
 
 <script>
-const CATS = ["LLM","이미지","비디오","오디오","LoRA","Workflow","ComfyUI","에이전트도구","기타"];
+const BASE_CATS = ["LLM","이미지","비디오","오디오","LoRA","Workflow","ComfyUI","에이전트도구","기타"];
 let items = [], cat = "", mode = "active";
+
+// 카테고리 목록은 기본 + 데이터에 등장하는 새 카테고리를 자동 병합
+function allCats() {
+  const cats = [...BASE_CATS];
+  items.forEach(it => { if (it.category && !cats.includes(it.category)) cats.push(it.category); });
+  return cats;
+}
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c =>
   ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -123,7 +130,7 @@ function renderNav() {
   items.forEach(it => counts[it.category] = (counts[it.category] || 0) + 1);
   document.getElementById("cat-nav").innerHTML =
     `<li><a data-cat="" class="${cat === "" ? "active" : ""}">전체<span class="cnt">${items.length}</span></a></li>` +
-    CATS.map(c => `<li><a data-cat="${esc(c)}" class="${cat === c ? "active" : ""}">${esc(c)}<span class="cnt">${counts[c] || 0}</span></a></li>`).join("");
+    allCats().map(c => `<li><a data-cat="${esc(c)}" class="${cat === c ? "active" : ""}">${esc(c)}<span class="cnt">${counts[c] || 0}</span></a></li>`).join("");
 }
 
 function renderSubtabs() {
