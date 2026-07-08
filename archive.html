@@ -70,22 +70,6 @@
   .mcard .foot { font-size: 12px; color: var(--sub); }
   .mcard .sup { font-size: 12px; color: #92400e; margin-top: 4px; }
   #empty { color: var(--sub); text-align: center; padding: 80px 0; grid-column: 1 / -1; }
-  /* 링크 제보 */
-  .submit-box { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
-                padding: 14px 16px; margin-bottom: 22px; }
-  .submit-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 8px; flex-wrap: wrap; }
-  .submit-head strong { font-size: 14px; }
-  .submit-hint { font-size: 12px; color: var(--sub); }
-  .submit-box textarea { width: 100%; resize: vertical; border: 1px solid var(--line);
-                          border-radius: 8px; padding: 8px 10px; font-size: 13px;
-                          font-family: Consolas, "Courier New", monospace; color: var(--ink);
-                          background: var(--bg); }
-  .submit-actions { display: flex; align-items: center; gap: 10px; margin-top: 8px; }
-  .submit-actions button { background: var(--ink); color: #fff; border: none; border-radius: 8px;
-                            padding: 7px 16px; font-size: 13px; font-weight: 700; cursor: pointer;
-                            font-family: inherit; }
-  .submit-actions button:hover { opacity: .88; }
-  #submit-msg { font-size: 12.5px; color: #16a34a; font-weight: 600; }
   footer { margin-left: var(--nav-w); padding: 24px; text-align: center;
            color: var(--sub); font-size: 12.5px; }
   @media (max-width: 760px) {
@@ -118,17 +102,6 @@
       <h1>모델 아카이브</h1>
       <p>GitHub · Hugging Face에서 수집한 오픈모델·도구. 새 버전이 나오면 기존 항목은 Old로 이동합니다.</p>
     </header>
-    <section class="submit-box">
-      <div class="submit-head">
-        <strong>🔗 링크 제보</strong>
-        <span class="submit-hint">GitHub·HF 링크를 한 줄에 하나씩 붙여넣고 다운로드 — 이 PC의 다운로드 폴더에 저장되면 다음 자동 수집(매일 저녁 8시) 때 분석해서 반영됩니다. 다른 기기에서는 반영되지 않습니다.</span>
-      </div>
-      <textarea id="submit-input" rows="3" placeholder="https://github.com/owner/repo&#10;https://huggingface.co/org/model"></textarea>
-      <div class="submit-actions">
-        <button id="submit-btn" type="button">다운로드 (제보 파일 생성)</button>
-        <span id="submit-msg"></span>
-      </div>
-    </section>
     <div id="subtabs"></div>
     <div class="grid" id="grid"><div id="empty">데이터를 불러오는 중…</div></div>
   </div>
@@ -204,35 +177,6 @@ document.addEventListener("click", e => {
   if (c) { cat = c.dataset.cat; renderNav(); renderSubtabs(); renderGrid(); return; }
   const m = e.target.closest("[data-mode]");
   if (m) { mode = m.dataset.mode; renderSubtabs(); renderGrid(); }
-});
-
-// 링크 제보: 텍스트를 로컬 다운로드 폴더에 .txt로 저장 (백엔드 없음).
-// 자동 수집 루틴이 %USERPROFILE%\Downloads\trendwatch-ai-link-*.txt를 스캔해 반영 후 삭제.
-function localStamp(d) {
-  const p = n => String(n).padStart(2, "0");
-  return `${d.getFullYear()}${p(d.getMonth() + 1)}${p(d.getDate())}-${p(d.getHours())}${p(d.getMinutes())}${p(d.getSeconds())}`;
-}
-
-document.getElementById("submit-btn").addEventListener("click", () => {
-  const ta = document.getElementById("submit-input");
-  const msg = document.getElementById("submit-msg");
-  const urls = ta.value.split("\n").map(s => s.trim()).filter(Boolean);
-  if (urls.length === 0) { msg.textContent = "링크를 입력해주세요."; msg.style.color = "#dc2626"; return; }
-  const now = new Date();
-  const content = `# TrendWatch-AI 링크 제보 — ${now.toLocaleString("ko-KR")}\n` + urls.join("\n") + "\n";
-  const blob = new Blob([content], { type: "text/plain" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = `trendwatch-ai-link-${localStamp(now)}.txt`;
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
-  ta.value = "";
-  msg.style.color = "#16a34a";
-  msg.textContent = `다운로드됨 (${urls.length}건) — 다음 자동 수집 때 반영됩니다.`;
-  setTimeout(() => { msg.textContent = ""; }, 6000);
 });
 
 fetch("data/archive.json").then(r => r.json()).then(d => {
