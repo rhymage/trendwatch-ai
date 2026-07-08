@@ -1,6 +1,18 @@
 {
-  "updated": "2026-07-07 20:30 KST",
+  "updated": "2026-07-08 20:30 KST",
   "items": [
+    {
+      "id": "2026-07-gh-rowboat",
+      "name": "Rowboat",
+      "category": "에이전트도구",
+      "type": "github",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "org": "rowboatlabs",
+      "added": "2026-07-08",
+      "status": "active",
+      "desc": "로컬 우선 데스크톱 AI 코워커 — 이메일·미팅 전사·지식그래프·병렬 코딩 에이전트를 하나로 묶은 Claude Desktop 대안. Apache 2.0",
+      "stats": "Show HN 72pt"
+    },
     {
       "id": "2026-07-hf-kyutai-pocket-tts",
       "name": "pocket-tts",
