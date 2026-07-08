@@ -1,6 +1,18 @@
 {
-  "updated": "2026-07-08 20:30 KST",
+  "updated": "2026-07-08 23:50 KST",
   "items": [
+    {
+      "id": "2026-07-gh-chatgpt-images-2",
+      "name": "GPT-Image2 (ChatGPT-Images-2)",
+      "category": "이미지",
+      "type": "github",
+      "url": "https://github.com/octopus7/ChatGPT-Images-2",
+      "org": "octopus7",
+      "added": "2026-07-08",
+      "status": "active",
+      "desc": "ChatGPT/GPT Image 2.0의 반짝이는 노이즈 아티팩트 원인을 분석하고 디노이즈·심플리파이 디테일 레벨별 결과를 정리한 문서 저장소",
+      "stats": "★60"
+    },
     {
       "id": "2026-07-gh-rowboat",
       "name": "Rowboat",

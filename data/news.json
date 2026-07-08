@@ -1,6 +1,19 @@
 {
-  "updated": "2026-07-08 20:30 KST",
+  "updated": "2026-07-08 23:50 KST",
   "items": [
+    {
+      "id": "2026-07-08-N05",
+      "date": "2026-07-08",
+      "published": "2026-07-06",
+      "title": "'GitLost' 취약점 공개 — GitHub Agentic Workflows, 프롬프트 인젝션으로 비공개 저장소 유출",
+      "summary": "Noma Labs가 GitHub의 신규 Agentic Workflows(GitHub Actions + Claude·Copilot 기반 AI 에이전트) 기능에서 프롬프트 인젝션 취약점을 시연. 공개 저장소에 악성 지시문을 담은 이슈를 올리면 에이전트가 같은 조직의 비공개 저장소 README를 가져와 공개로 유출시켰다. 시스템 지시와 신뢰할 수 없는 사용자 입력 간 경계 미흡이 원인.",
+      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "source": "Noma Security",
+      "tags": [
+        "에이전트도구",
+        "빅테크플랫폼"
+      ]
+    },
     {
       "id": "2026-07-08-N04",
       "date": "2026-07-08",
