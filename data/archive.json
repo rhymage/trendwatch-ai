@@ -1,6 +1,18 @@
 {
-  "updated": "2026-07-08 23:50 KST",
+  "updated": "2026-07-09 21:30 KST",
   "items": [
+    {
+      "id": "2026-07-gh-agent-skills",
+      "name": "agent-skills",
+      "category": "에이전트도구",
+      "type": "github",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "org": "addyosmani",
+      "added": "2026-07-09",
+      "status": "active",
+      "desc": "Claude Code·Codex·Cursor 등 AI 코딩 에이전트용 프로덕션급 엔지니어링 스킬 모음",
+      "stats": "★75.3k"
+    },
     {
       "id": "2026-07-gh-chatgpt-images-2",
       "name": "GPT-Image2 (ChatGPT-Images-2)",

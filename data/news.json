@@ -1,6 +1,99 @@
 {
-  "updated": "2026-07-08 23:50 KST",
+  "updated": "2026-07-09 21:30 KST",
   "items": [
+    {
+      "id": "2026-07-09-N07",
+      "date": "2026-07-09",
+      "published": "2026-07-08",
+      "title": "ByteDance, 이미지 생성 모델 'Seedream 5.0 Pro' 공개 — ComfyUI 즉시 지원",
+      "summary": "7월 8일 출시된 Seedream 5.0 Pro는 복잡한 인포그래픽 등 정보 시각화, 대화형 정밀 편집, 10개 이상 언어의 네이티브 텍스트 렌더링을 지원한다. 네이티브 2K 해상도(4K 업스케일 가능)를 제공하며, 출시 하루 만에 ComfyUI 파트너 노드로 연동됐다.",
+      "url": "https://seed.bytedance.com/en/blog/beyond-generation-it-understands-design-introducing-seedream-5-0-pro",
+      "source": "ByteDance Seed",
+      "tags": [
+        "생성형모델",
+        "ComfyUI"
+      ],
+      "importance": "high"
+    },
+    {
+      "id": "2026-07-09-N06",
+      "date": "2026-07-09",
+      "published": "2026-07-03",
+      "title": "ByteDance, 30초 네이티브 영상 생성 모델 'Seedance 2.5' 공개 롤아웃 시작",
+      "summary": "6월 23일 발표된 Seedance 2.5는 스티칭 없이 30초 분량을 한 번에 생성하고, 최대 50개 참조 소재 입력과 장면 내 특정 요소만 다시 그리는 로컬 편집을 지원한다. 네이티브 4K와 오디오 동기화도 포함되며, 중국 내 Doubao·Volcano Engine을 시작으로 이번 주부터 순차 공개되고 있다.",
+      "url": "https://www.techtimes.com/articles/318975/20260624/bytedance-seedance-25-native-30-second-ai-video-no-stitching-required.htm",
+      "source": "ByteDance · TechTimes",
+      "tags": [
+        "생성형모델",
+        "빅테크플랫폼"
+      ],
+      "importance": "high"
+    },
+    {
+      "id": "2026-07-09-N05",
+      "date": "2026-07-09",
+      "published": "2026-07-08",
+      "title": "xAI(SpaceXAI), 'Grok 4.5' 공개 — 1.5T 파라미터 V9 기반 프론티어 모델",
+      "summary": "7월 8일 정식 출시. SWE-bench Pro 등 코딩 벤치마크에서 Opus 4.8·GPT-5.5에 근접한 성능을 내면서도 출력 토큰 사용량은 4배 이상 적어 비용 효율이 높다. 100만 토큰당 입력 $2·출력 $6으로 경쟁 모델보다 저렴하게 책정됐으며 Cursor 등에도 바로 연동됐다.",
+      "url": "https://x.ai/news/grok-4-5",
+      "source": "xAI",
+      "tags": [
+        "LLM",
+        "빅테크플랫폼"
+      ],
+      "importance": "high"
+    },
+    {
+      "id": "2026-07-09-N04",
+      "date": "2026-07-09",
+      "published": "2026-07-07",
+      "title": "Google DeepMind, 'Gemini 3.5 Pro' 출시를 7월 17일로 연기 — 아키텍처 전면 재설계",
+      "summary": "기존 2.5 Pro 기반 구조를 폐기하고 처음부터 다시 설계, 수학적 추론과 SVG 생성·이미지 품질 개선에 집중한다. 200만 토큰 컨텍스트와 'Deep Think' 추론 레이어가 새로 도입되며, GPT-5.6·Claude Fable 5와의 경쟁을 겨냥한 행보로 풀이된다.",
+      "url": "https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a",
+      "source": "BigGo Finance",
+      "tags": [
+        "LLM",
+        "빅테크플랫폼"
+      ]
+    },
+    {
+      "id": "2026-07-09-N03",
+      "date": "2026-07-09",
+      "published": "2026-07-08",
+      "title": "OpenAI, 'GPT-Live'로 ChatGPT 음성모드 전면 개편 — 풀듀플렉스 대화 지원",
+      "summary": "7월 8일 공개. 듣기와 말하기를 동시에 처리하는 풀듀플렉스 구조로 자연스러운 끼어들기·맞장구가 가능해졌고, 복잡한 질문은 뒤에서 최신 추론 모델에 위임한다. Advanced Voice Mode를 대체하며 GPT-Live-1·mini 두 버전으로 순차 배포되지만, 출시 시점엔 영상·화면 공유를 곁들인 음성 대화는 지원하지 않는다.",
+      "url": "https://openai.com/index/introducing-gpt-live/",
+      "source": "OpenAI",
+      "tags": [
+        "빅테크플랫폼"
+      ]
+    },
+    {
+      "id": "2026-07-09-N02",
+      "date": "2026-07-09",
+      "published": "2026-07-07",
+      "title": "Anthropic, Claude Cowork를 웹·모바일로 확장",
+      "summary": "데스크톱 전용이던 Claude Cowork가 웹과 모바일에서도 제공돼 대화·프로젝트·아티팩트를 기기 간 동기화된 하나의 공간에서 이어갈 수 있게 됐다. Max 플랜부터 순차 적용되며 이후 몇 주에 걸쳐 다른 플랜으로 확대될 예정이다.",
+      "url": "https://9to5mac.com/2026/07/07/anthropic-expanding-claude-cowork-to-mobile-and-web-details-here/",
+      "source": "Anthropic · 9to5Mac",
+      "tags": [
+        "빅테크플랫폼",
+        "에이전트도구"
+      ]
+    },
+    {
+      "id": "2026-07-09-N01",
+      "date": "2026-07-09",
+      "published": "2026-07-07",
+      "title": "Anthropic, 'Claude for Government'에 Claude Code·Cowork 퍼블릭 베타 출시",
+      "summary": "FedRAMP High 인가 환경에서 기관 관리 기기의 로컬 대화 기록, 부서별 관리자 권한, 지출·모델 사용 한도, 변조 방지 감사 로그 등 공공기관 특화 통제 기능을 제공한다. 코딩·업무 에이전트 도구를 정부 부문까지 확장하려는 행보다.",
+      "url": "https://www.anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government",
+      "source": "Anthropic",
+      "tags": [
+        "빅테크플랫폼",
+        "에이전트도구"
+      ]
+    },
     {
       "id": "2026-07-08-N05",
       "date": "2026-07-08",
