@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09 21:30 KST",
+  "updated": "2026-07-11 20:30 KST",
   "items": [
     {
       "id": "2026-07-gh-agent-skills",
@@ -192,6 +192,42 @@
       "status": "active",
       "desc": "AI 코딩 에이전트용 프로덕션급 엔지니어링 스킬 모음 — GitHub 트렌딩 상위",
       "stats": "★ 71k (+1.1k/일)"
+    },
+    {
+      "id": "2026-07-gh-mengto-skills",
+      "name": "MengTo/Skills",
+      "category": "에이전트도구",
+      "type": "github",
+      "url": "https://github.com/MengTo/Skills",
+      "org": "MengTo",
+      "added": "2026-07-11",
+      "status": "active",
+      "desc": "디자이너·빌더를 위한 Codex·Claude·Cursor용 에이전트 스킬 75종 모음 — 화면 녹화→프롬프트 변환, 랜딩페이지·UI 시스템, 풀페이지 캡처 등",
+      "stats": "★1.7k (제보)"
+    },
+    {
+      "id": "2026-07-gh-font-harness",
+      "name": "font-harness (천지인)",
+      "category": "기타",
+      "type": "github",
+      "url": "https://github.com/revfactory/font-harness",
+      "org": "revfactory",
+      "added": "2026-07-11",
+      "status": "active",
+      "desc": "AI 멀티에이전트 하네스(12개 에이전트+6개 스킬)로 제작된 실험적 한글 폰트 — 원·수평·수직 3요소만으로 11,172자 자동 생성. OFL 1.1",
+      "stats": "★56 (제보)"
+    },
+    {
+      "id": "2026-07-gh-colibri",
+      "name": "colibri",
+      "category": "기타",
+      "type": "github",
+      "url": "https://github.com/JustVugg/colibri",
+      "org": "JustVugg",
+      "added": "2026-07-11",
+      "status": "active",
+      "desc": "744B GLM-5.2 MoE 모델을 25GB RAM 소비자용 PC에서 구동하는 순수 C 추론 엔진 — 라우팅 전문가 21,504개를 디스크에서 LRU 스트리밍, GPU 불필요. Apache 2.0",
+      "stats": "HN 859pt"
     }
   ]
 }

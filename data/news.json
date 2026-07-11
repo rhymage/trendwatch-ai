@@ -1,6 +1,48 @@
 {
-  "updated": "2026-07-09 21:30 KST",
+  "updated": "2026-07-11 20:30 KST",
   "items": [
+    {
+      "id": "2026-07-11-N01",
+      "date": "2026-07-11",
+      "published": "2026-07-10",
+      "title": "애플, OpenAI 상대로 영업비밀 도용 소송 제기 — 전직 애플 직원 2명 지목",
+      "summary": "애플이 OpenAI를 상대로 전직 직원을 통한 영업비밀 부정취득 소송을 제기했다. iPhone·Apple Watch 디자인을 이끌던 전 부사장 탄 탄(현재 Jony Ive와 협업)과 퇴사 후 보안 취약점으로 기밀문서 1,000여 페이지를 다운로드한 전 시스템 엔지니어가 핵심 피고다. 애플은 현재 OpenAI에 전직 애플 직원 약 400명이 재직 중이라고 주장했다.",
+      "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
+      "source": "9to5Mac",
+      "tags": [
+        "빅테크플랫폼",
+        "일반소식"
+      ],
+      "importance": "high"
+    },
+    {
+      "id": "2026-07-11-N02",
+      "date": "2026-07-11",
+      "published": "2026-07-10",
+      "title": "OpenAI GPT-5.6 Sol Ultra, 64개 서브에이전트로 50년 미해결 수학 난제 증명",
+      "summary": "GPT-5.6 Sol Ultra가 1973년 제기된 Cycle Double Cover Conjecture(사이클 이중피복 추측)의 증명을 1시간 이내에 산출했다고 OpenAI가 공개했다. 64개 서브에이전트가 경쟁적 접근법·반복 검증·부분논증 기각을 병렬 수행하는 방식으로, 저자는 모델 단독으로 표기됐다. 다만 독립 수학자 검증 전까지는 '주장된 증명' 단계다.",
+      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "source": "OpenAI",
+      "tags": [
+        "LLM",
+        "빅테크플랫폼"
+      ],
+      "importance": "high"
+    },
+    {
+      "id": "2026-07-11-N03",
+      "date": "2026-07-11",
+      "published": "2026-07-03",
+      "title": "ShengShu Technology, 실시간 대화형 영상 생성 모델 'Vidu S1' 공개",
+      "summary": "이미지 한 장(실사·애니 캐릭터·반려동물 불문)과 음성만으로 즉석 인터랙티브 캐릭터를 생성해 끊김 없이 실시간 대화·조작이 가능한 자기회귀 디퓨전 모델. 540P(960x540)·25FPS(최대 42FPS)를 컨슈머 GPU에서 처리하며, 웹 체험판과 개발자용 API가 이미 공개됐다.",
+      "url": "https://www.vidu.com/vidu-stream",
+      "source": "ShengShu Technology",
+      "tags": [
+        "생성형모델",
+        "신규플랫폼"
+      ],
+      "importance": "high"
+    },
     {
       "id": "2026-07-09-N07",
       "date": "2026-07-09",
