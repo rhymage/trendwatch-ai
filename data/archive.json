@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11 20:30 KST",
+  "updated": "2026-07-11 21:10 KST",
   "items": [
     {
       "id": "2026-07-gh-agent-skills",
@@ -228,6 +228,18 @@
       "status": "active",
       "desc": "744B GLM-5.2 MoE 모델을 25GB RAM 소비자용 PC에서 구동하는 순수 C 추론 엔진 — 라우팅 전문가 21,504개를 디스크에서 LRU 스트리밍, GPU 불필요. Apache 2.0",
       "stats": "HN 859pt"
+    },
+    {
+      "id": "2026-07-web-3daistudio-flow",
+      "name": "3D AI Studio — Flow",
+      "category": "3D",
+      "type": "website",
+      "url": "https://www.3daistudio.com/Flow",
+      "org": "3D AI Studio",
+      "added": "2026-07-11",
+      "status": "active",
+      "desc": "브라우저 기반 노드형 3D 워크플로우 캔버스 — Hunyuan3D·Tripo 등 생성 노드와 메시 정리·텍스처링을 그래프로 연결, AI 에이전트가 워크플로우 자동 구성. 설치·GPU 불요 (3D판 ComfyUI 격)",
+      "stats": "2026-06-22 출시 · Stefan 3D AI 채널 영상에서 소개(2026-07-11)"
     }
   ]
 }
