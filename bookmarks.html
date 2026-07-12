@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TrendWatch AI — 모델 아카이브</title>
-<meta name="description" content="GitHub·Hugging Face 오픈모델·도구 아카이브">
+<title>TrendWatch AI — 북마크</title>
+<meta name="description" content="AI 툴·서비스 사이트 북마크 모음">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <style>
   :root {
@@ -42,6 +42,9 @@
   .wrap { max-width: 900px; margin: 0 auto; }
   header.page h1 { font-size: 26px; margin: 0 0 4px; letter-spacing: -0.5px; }
   header.page p { color: var(--sub); font-size: 14px; margin: 0 0 20px; }
+  #searchbar { margin-bottom: 16px; }
+  #searchbar input { width: 100%; padding: 9px 14px; border: 1px solid var(--line);
+                      border-radius: 9px; font-size: 14px; font-family: inherit; background: var(--card); }
   /* Active/Old 서브메뉴 */
   #subtabs { display: flex; gap: 8px; margin-bottom: 24px; }
   .stab { border: 1px solid var(--line); background: var(--card); color: var(--sub);
@@ -50,25 +53,22 @@
   .stab.on { background: var(--ink); border-color: var(--ink); color: #fff; }
   .stab .cnt { opacity: .6; font-weight: 400; margin-left: 4px; font-size: 12px; }
   /* 카드 그리드 */
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 14px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px; }
   .mcard { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
            padding: 14px 16px; box-shadow: 0 1px 3px rgba(0,0,0,.04); }
   .mcard.old { background: var(--old-bg); opacity: .82; }
   .mcard .top { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin-bottom: 5px; }
   .cat-b { font-size: 11.5px; font-weight: 700; color: var(--accent); background: var(--accent-soft);
            border: 1px solid #c7d2fe; padding: 1px 8px; border-radius: 6px; }
-  .type-b { font-size: 11.5px; color: var(--sub); background: var(--bg);
-            border: 1px solid var(--line); padding: 1px 8px; border-radius: 6px; }
   .old-b { font-size: 11.5px; font-weight: 700; color: #92400e; background: #fef3c7;
            border: 1px solid #fde68a; padding: 1px 8px; border-radius: 6px; }
-  .mcard h3 { margin: 2px 0 2px; font-size: 15.5px; letter-spacing: -0.2px; line-height: 1.4;
-              word-break: break-all; }
+  .mcard h3 { margin: 2px 0 4px; font-size: 15.5px; letter-spacing: -0.2px; line-height: 1.4;
+              word-break: break-word; }
   .mcard h3 a { color: var(--ink); text-decoration: none; }
   .mcard h3 a:hover { color: var(--accent); text-decoration: underline; }
-  .mcard .org { font-size: 12.5px; color: var(--sub); margin-bottom: 6px; }
   .mcard p.desc { margin: 0 0 8px; font-size: 13px; color: #3a4048; }
-  .mcard .foot { font-size: 12px; color: var(--sub); }
-  .mcard .sup { font-size: 12px; color: #92400e; margin-top: 4px; }
+  .mcard .foot { font-size: 12px; color: var(--sub); word-break: break-all; }
+  .mcard .why-old { font-size: 12px; color: #92400e; margin-top: 4px; }
   #empty { color: var(--sub); text-align: center; padding: 80px 0; grid-column: 1 / -1; }
   footer { margin-left: var(--nav-w); padding: 24px; text-align: center;
            color: var(--sub); font-size: 12.5px; }
@@ -86,11 +86,11 @@
 
 <nav id="sidebar">
   <div class="nav-title"><img src="favicon.svg" alt="">
-    <span>TrendWatch AI<small>모델 아카이브</small></span></div>
+    <span>TrendWatch AI<small>북마크</small></span></div>
   <div class="nav-pages">
     <a href="index.html">뉴스</a>
-    <a href="archive.html" class="on">아카이브</a>
-    <a href="bookmarks.html">북마크</a>
+    <a href="archive.html">아카이브</a>
+    <a href="bookmarks.html" class="on">북마크</a>
   </div>
   <div class="nav-sec">카테고리</div>
   <ul id="cat-nav"></ul>
@@ -100,21 +100,23 @@
 <main>
   <div class="wrap">
     <header class="page">
-      <h1>모델 아카이브</h1>
-      <p>GitHub · Hugging Face에서 수집한 오픈모델·도구. 새 버전이 나오면 기존 항목은 Old로 이동합니다.</p>
+      <h1>북마크</h1>
+      <p>자주 쓰는 AI 툴·서비스 사이트 모음. 오래도록 소식이 없거나 비활성화된 곳은 Old로 분리됩니다.</p>
     </header>
+    <div id="searchbar"><input type="text" id="q" placeholder="사이트 이름·설명 검색…"></div>
     <div id="subtabs"></div>
     <div class="grid" id="grid"><div id="empty">데이터를 불러오는 중…</div></div>
   </div>
 </main>
 
-<footer>TrendWatch AI — 매일 자동 수집 · 상세 정보는 원본 링크 확인</footer>
+<footer>TrendWatch AI — 북마크는 수시로 정리됩니다 · 상세 정보는 원본 링크 확인</footer>
 
 <script>
-const BASE_CATS = ["LLM","이미지","비디오","오디오","LoRA","Workflow","ComfyUI","에이전트도구","기타"];
-let items = [], cat = "", mode = "active";
+const BASE_CATS = ["영상생성","이미지생성","3D생성","오디오·음악","LLM·챗봇","에이전트·자동화",
+                    "코딩·개발","디자인·프리젠테이션","플러그인·DCC","AI툴모음·허브",
+                    "프롬프트·레퍼런스","스튜디오 레퍼런스","기타"];
+let items = [], cat = "", mode = "active", q = "";
 
-// 카테고리 목록은 기본 + 데이터에 등장하는 새 카테고리를 자동 병합
 function allCats() {
   const cats = [...BASE_CATS];
   items.forEach(it => { if (it.category && !cats.includes(it.category)) cats.push(it.category); });
@@ -125,6 +127,7 @@ const esc = s => String(s ?? "").replace(/[&<>"']/g, c =>
   ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
 const inCat = it => cat === "" || it.category === cat;
+const inQuery = it => q === "" || (it.name + " " + (it.desc || "")).toLowerCase().includes(q);
 
 function renderNav() {
   const counts = {};
@@ -135,42 +138,29 @@ function renderNav() {
 }
 
 function renderSubtabs() {
-  const nA = items.filter(it => inCat(it) && it.status !== "old").length;
-  const nO = items.filter(it => inCat(it) && it.status === "old").length;
+  const nA = items.filter(it => inCat(it) && inQuery(it) && it.status !== "old").length;
+  const nO = items.filter(it => inCat(it) && inQuery(it) && it.status === "old").length;
   document.getElementById("subtabs").innerHTML =
     `<button class="stab ${mode === "active" ? "on" : ""}" data-mode="active">Active<span class="cnt">${nA}</span></button>` +
     `<button class="stab ${mode === "old" ? "on" : ""}" data-mode="old">Old<span class="cnt">${nO}</span></button>`;
 }
 
 function renderGrid() {
-  const shown = items.filter(it => inCat(it) && (mode === "old" ? it.status === "old" : it.status !== "old"))
-    .sort((a, b) => (b.added || "").localeCompare(a.added || ""));
+  const shown = items.filter(it => inCat(it) && inQuery(it) && (mode === "old" ? it.status === "old" : it.status !== "old"))
+    .sort((a, b) => (a.name || "").localeCompare(b.name || "", "ko"));
   const grid = document.getElementById("grid");
   if (shown.length === 0) { grid.innerHTML = `<div id="empty">해당 항목이 없습니다.</div>`; return; }
-  const byId = Object.fromEntries(items.map(it => [it.id, it]));
   grid.innerHTML = shown.map(it => `
     <article class="mcard ${it.status === "old" ? "old" : ""}" id="${esc(it.id)}">
       <div class="top">
         <span class="cat-b">${esc(it.category)}</span>
-        <span class="type-b">${it.type === "huggingface" ? "🤗 HF" : it.type === "github" ? "GitHub" : esc(it.type || "")}</span>
         ${it.status === "old" ? `<span class="old-b">OLD</span>` : ""}
       </div>
       <h3><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.name)}</a></h3>
-      <div class="org">${esc(it.org || "")}</div>
       <p class="desc">${esc(it.desc || "")}</p>
-      <div class="foot">${esc(it.stats || "")}${it.stats ? " · " : ""}수집 ${esc(it.added || "")}</div>
-      ${it.supersededBy && byId[it.supersededBy]
-        ? `<div class="sup">→ 대체: <a href="#${esc(it.supersededBy)}" onclick="jump('${esc(it.supersededBy)}')">${esc(byId[it.supersededBy].name)}</a></div>` : ""}
+      <div class="foot">${esc(new URL(it.url).hostname.replace(/^www\\./,""))}</div>
+      ${it.status === "old" && it.oldReason ? `<div class="why-old">⚠ ${esc(it.oldReason)}</div>` : ""}
     </article>`).join("");
-}
-
-function jump(id) {
-  const t = items.find(it => it.id === id);
-  if (!t) return;
-  mode = t.status === "old" ? "old" : "active";
-  if (cat !== "" && t.category !== cat) cat = t.category;
-  renderNav(); renderSubtabs(); renderGrid();
-  setTimeout(() => document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "center" }), 50);
 }
 
 document.addEventListener("click", e => {
@@ -179,13 +169,17 @@ document.addEventListener("click", e => {
   const m = e.target.closest("[data-mode]");
   if (m) { mode = m.dataset.mode; renderSubtabs(); renderGrid(); }
 });
+document.getElementById("q").addEventListener("input", e => {
+  q = e.target.value.trim().toLowerCase();
+  renderSubtabs(); renderGrid();
+});
 
-fetch("data/archive.json").then(r => r.json()).then(d => {
+fetch("data/bookmarks.json").then(r => r.json()).then(d => {
   items = d.items || [];
-  document.getElementById("updated").textContent = d.updated ? `마지막 수집: ${d.updated}` : "";
+  document.getElementById("updated").textContent = d.updated ? `마지막 정리: ${d.updated}` : "";
   renderNav(); renderSubtabs(); renderGrid();
 }).catch(() => {
-  document.getElementById("empty").textContent = "아직 수집된 데이터가 없습니다.";
+  document.getElementById("empty").textContent = "아직 정리된 데이터가 없습니다.";
 });
 </script>
 </body>

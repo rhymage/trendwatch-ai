@@ -1,0 +1,1726 @@
+{
+  "updated": "2026-07-12 21:40 KST",
+  "items": [
+    {
+      "id": "bm-invideo-ai",
+      "name": "InVideo AI",
+      "category": "영상생성",
+      "url": "https://invideo.io/",
+      "desc": "프롬프트로 영상을 만드는 AI 비디오 에이전트 플랫폼",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-beeble",
+      "name": "Beeble (SwitchX)",
+      "category": "영상생성",
+      "url": "https://app.beeble.ai/home",
+      "desc": "비디오를 VFX 소스로 변환하는 AI 툴(재조명·매트 추출 등)",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-kling-ai",
+      "name": "Kling AI",
+      "category": "영상생성",
+      "url": "https://app.klingai.com/global/",
+      "desc": "콰이쇼우의 프론티어 영상 생성 모델·크리에이티브 스튜디오",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-runway",
+      "name": "Runway",
+      "category": "영상생성",
+      "url": "https://runwayml.com/",
+      "desc": "Gen-3/4 계열 영상 생성·편집 툴을 제공하는 대표 AI 비디오 플랫폼",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-pixverse",
+      "name": "PixVerse",
+      "category": "영상생성",
+      "url": "https://app.pixverse.ai/onboard",
+      "desc": "텍스트·이미지 기반 영상 생성 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-capcut",
+      "name": "CapCut",
+      "category": "영상생성",
+      "url": "https://www.capcut.com/",
+      "desc": "바이트댄스의 영상 편집 앱, AI 편집 기능 다수 포함",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-dreamina",
+      "name": "Dreamina",
+      "category": "영상생성",
+      "url": "https://dreamina.capcut.com/ai-tool/home",
+      "desc": "바이트댄스 계열 AI 아바타·이미지·영상 생성 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-luma-dream-machine",
+      "name": "Luma Dream Machine",
+      "category": "영상생성",
+      "url": "https://lumalabs.ai/dream-machine",
+      "desc": "Luma AI의 텍스트·이미지 기반 영상 생성 모델",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-seedance",
+      "name": "Seedance",
+      "category": "영상생성",
+      "url": "https://seed.bytedance.com/en/seedance",
+      "desc": "바이트댄스 Seed팀의 영상 생성 모델 공식 페이지",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-kaiber",
+      "name": "Kaiber",
+      "category": "영상생성",
+      "url": "https://kaiber.ai/",
+      "desc": "Kling·Veo·Runway 등을 통합한 캔버스형 AI 영상 생성 서비스(Superstudio)",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-haiper",
+      "name": "Haiper",
+      "category": "영상생성",
+      "url": "https://haiper.ai/",
+      "desc": "AI 영상 생성기",
+      "status": "old",
+      "added": "2026-07-12",
+      "oldReason": "2025년 2월 소비자 서비스 종료, 기술은 NetMind.AI에 매각되어 B2B로만 존속"
+    },
+    {
+      "id": "bm-hailuo",
+      "name": "Hailuo AI",
+      "category": "영상생성",
+      "url": "https://hailuoai.video/",
+      "desc": "미니맥스의 아이디어→영상 생성 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-pika",
+      "name": "Pika",
+      "category": "영상생성",
+      "url": "https://pika.art/",
+      "desc": "캐릭터·장면 일관성에 강점을 둔 AI 영상 생성 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-domoai",
+      "name": "DomoAI",
+      "category": "영상생성",
+      "url": "https://www.domoai.app/home",
+      "desc": "video-to-video·애니메이션 변환 특화 AI 영상 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-d-id",
+      "name": "D-ID",
+      "category": "영상생성",
+      "url": "https://studio.d-id.com/",
+      "desc": "이미지 한 장으로 말하는 아바타 영상을 만드는 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-hedra",
+      "name": "Hedra",
+      "category": "영상생성",
+      "url": "https://www.hedra.com/",
+      "desc": "캐릭터 퍼포먼스·립싱크 특화 AI 영상 생성 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-viggle",
+      "name": "Viggle",
+      "category": "영상생성",
+      "url": "https://viggle.ai/create",
+      "desc": "캐릭터에 모션을 입히는 AI 애니메이션 툴(PINOC 3D 스튜디오 포함)",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-skyreels",
+      "name": "SkyReels",
+      "category": "영상생성",
+      "url": "https://www.skyreels.ai/home",
+      "desc": "스토리 기반 AI 영상 생성 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-vidu",
+      "name": "Vidu",
+      "category": "영상생성",
+      "url": "https://www.vidu.com/",
+      "desc": "ShengShu Technology의 AI 영상 생성 플랫폼(Vidu S1 실시간 모델 포함)",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-sora",
+      "name": "Sora",
+      "category": "영상생성",
+      "url": "https://openai.com/sora",
+      "desc": "OpenAI의 텍스트 기반 영상 생성 모델",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-wan-ai",
+      "name": "Wan AI",
+      "category": "영상생성",
+      "url": "https://create.wan.video/",
+      "desc": "알리바바 계열 오픈 영상 생성 모델 플랫폼",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-cutback",
+      "name": "Cutback",
+      "category": "영상생성",
+      "url": "https://cutback.video/ko/",
+      "desc": "AI 기반 자동 영상 편집 프로그램",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-cutout-pro",
+      "name": "Cutout.pro",
+      "category": "영상생성",
+      "url": "https://www.cutout.pro/ai-video-enhancer",
+      "desc": "AI 영상 화질 개선·업스케일 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-filmora",
+      "name": "Filmora",
+      "category": "영상생성",
+      "url": "https://filmora.wondershare.net/",
+      "desc": "원더셰어의 AI 영상 편집 프로그램",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-lensgo",
+      "name": "LensGo",
+      "category": "영상생성",
+      "url": "https://lensgo.ai/",
+      "desc": "60여개 AI 모델을 통합한 이미지·영상 생성 플랫폼",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-florafauna",
+      "name": "FLORA",
+      "category": "영상생성",
+      "url": "https://www.florafauna.ai/",
+      "desc": "여러 생성 모델을 노드로 엮는 멀티 엔진 크리에이티브 캔버스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-kive",
+      "name": "Kive",
+      "category": "프롬프트·레퍼런스",
+      "url": "https://kive.ai/",
+      "desc": "레퍼런스 영상·이미지에서 프롬프트를 추출해주는 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-animateai",
+      "name": "AnimateAI",
+      "category": "영상생성",
+      "url": "https://animateai.pro/",
+      "desc": "캐릭터·스토리보드부터 애니메이션 영상까지 만드는 AI 영상 생성 플랫폼",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-adcreative",
+      "name": "AdCreative.ai",
+      "category": "영상생성",
+      "url": "https://lab.adcreative.ai/",
+      "desc": "광고 소재(이미지·영상) 자동 생성 AI 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-4dv-ai",
+      "name": "4DV.ai",
+      "category": "영상생성",
+      "url": "https://www.4dv.ai/",
+      "desc": "비주얼 미디어 기술을 개발하는 AI 스타트업(구체 제품 정보 제한적)",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-usecardboard",
+      "name": "Cardboard",
+      "category": "영상생성",
+      "url": "https://www.usecardboard.com/",
+      "desc": "영상을 자동 분석해 하이라이트·리프레이밍·자막을 생성하는 AI 비디오 편집 플랫폼",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-trylens",
+      "name": "Lens",
+      "category": "영상생성",
+      "url": "https://trylens.ai/",
+      "desc": "프롬프트만으로 컷·전환·스타일을 편집하는 AI 비디오 편집 에이전트",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-odyssey-world",
+      "name": "Odyssey",
+      "category": "영상생성",
+      "url": "https://odyssey.world/introducing-interactive-video",
+      "desc": "사용자 입력에 실시간 반응하는 AI 생성 인터랙티브 비디오 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-sequencer-media",
+      "name": "Sequencer Studio",
+      "category": "영상생성",
+      "url": "https://sequencer.media/film",
+      "desc": "이미지·영상·오디오 AI 모델을 통합한 AI 영화 제작 플랫폼",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-makeavideo",
+      "name": "Make-A-Video (Meta)",
+      "category": "영상생성",
+      "url": "https://makeavideo.studio/",
+      "desc": "Meta의 텍스트-투-비디오 연구 데모",
+      "status": "old",
+      "added": "2026-07-12",
+      "oldReason": "2022년 연구 쇼케이스, 대기자 신청만 가능해 사실상 비공개"
+    },
+    {
+      "id": "bm-google-labs-flow",
+      "name": "Google Labs — Flow (Veo)",
+      "category": "영상생성",
+      "url": "https://labs.google/fx/ko/tools/flow",
+      "desc": "구글의 Veo 기반 AI 영상 생성 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-vidmuse",
+      "name": "VidMuse",
+      "category": "영상생성",
+      "url": "https://vidmuse.ai/ko",
+      "desc": "음악을 입력하면 스타일별 뮤직비디오를 만들어주는 AI 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-toon-crafter",
+      "name": "ToonCrafter (GitHub)",
+      "category": "영상생성",
+      "url": "https://github.com/ToonCrafter/ToonCrafter",
+      "desc": "두 키프레임 사이를 보간해 애니메이션 프레임을 생성하는 확산모델 연구 저장소",
+      "status": "old",
+      "added": "2026-07-12",
+      "oldReason": "1년 이상 커밋 없음, 사실상 개발 중단"
+    },
+    {
+      "id": "bm-ex-4d",
+      "name": "EX-4D",
+      "category": "영상생성",
+      "url": "https://tau-yihouxiang.github.io/projects/EX-4D/EX-4D.html",
+      "desc": "단일 이미지에서 극단적 시점의 4D 비디오를 합성하는 연구 프로젝트(Pico/ByteDance)",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-freepik",
+      "name": "Freepik",
+      "category": "이미지생성",
+      "url": "https://www.freepik.com/",
+      "desc": "스톡 이미지+AI 생성 디자인 에셋 플랫폼",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-seaart",
+      "name": "SeaArt AI",
+      "category": "이미지생성",
+      "url": "https://www.seaart.ai/ko",
+      "desc": "이미지 생성·모델 커뮤니티 플랫폼",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-civitai",
+      "name": "Civitai",
+      "category": "이미지생성",
+      "url": "https://civitai.com/",
+      "desc": "오픈소스 이미지 생성 체크포인트·LoRA 공유 커뮤니티",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-midjourney",
+      "name": "Midjourney",
+      "category": "이미지생성",
+      "url": "https://www.midjourney.com/app/",
+      "desc": "대표적인 텍스트 기반 이미지 생성 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-krea",
+      "name": "KREA",
+      "category": "이미지생성",
+      "url": "https://www.krea.ai/home",
+      "desc": "실시간 생성·업스케일 특화 이미지 AI 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-leonardo-ai",
+      "name": "Leonardo.Ai",
+      "category": "이미지생성",
+      "url": "https://app.leonardo.ai/",
+      "desc": "게임·디자인 에셋에 강점을 둔 이미지 생성 플랫폼",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-adobe-firefly",
+      "name": "Adobe Firefly",
+      "category": "이미지생성",
+      "url": "https://firefly.adobe.com/",
+      "desc": "어도비의 생성형 이미지 AI 스위트",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-flux1-ai",
+      "name": "Flux AI (flux1.ai)",
+      "category": "이미지생성",
+      "url": "https://flux1.ai/ko",
+      "desc": "FLUX.1 모델 기반 무료 온라인 이미지 생성 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-rundiffusion",
+      "name": "RunDiffusion",
+      "category": "이미지생성",
+      "url": "https://rundiffusion.com/",
+      "desc": "클라우드에서 바로 쓰는 Stable Diffusion 작업 공간",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-magnific",
+      "name": "Magnific AI",
+      "category": "이미지생성",
+      "url": "https://magnific.ai/",
+      "desc": "이미지 업스케일·디테일 강화 특화 AI 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-stylar",
+      "name": "Stylar",
+      "category": "이미지생성",
+      "url": "https://www.stylar.ai/",
+      "desc": "AI 이미지 생성·편집 툴",
+      "status": "old",
+      "added": "2026-07-12",
+      "oldReason": "2025년 Dzine(dzine.ai)으로 리브랜딩, 자동 리다이렉트됨"
+    },
+    {
+      "id": "bm-adobe-express",
+      "name": "Adobe Express",
+      "category": "디자인·프리젠테이션",
+      "url": "https://new.express.adobe.com/",
+      "desc": "어도비의 간편 디자인·콘텐츠 제작 툴(AI 기능 포함)",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-design-com",
+      "name": "Design.com",
+      "category": "디자인·프리젠테이션",
+      "url": "https://www.design.com/",
+      "desc": "로고·명함·SNS·웹사이트를 AI로 만드는 올인원 디자인 플랫폼",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-skybox-lab",
+      "name": "Skybox Lab",
+      "category": "이미지생성",
+      "url": "https://skybox.blockadelabs.com/",
+      "desc": "360도 스카이박스(파노라마) 이미지 생성 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-weavy",
+      "name": "Weavy",
+      "category": "이미지생성",
+      "url": "https://www.weavy.ai/",
+      "desc": "노드 기반 AI 이미지 디자인 워크플로우 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-lummi",
+      "name": "Lummi",
+      "category": "이미지생성",
+      "url": "https://www.lummi.ai/",
+      "desc": "무료 AI 스톡 이미지·일러스트·3D 소스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-novelai",
+      "name": "NovelAI",
+      "category": "이미지생성",
+      "url": "https://novelai.net/",
+      "desc": "애니메이션풍 이미지 생성과 AI 스토리텔링을 함께 제공하는 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-novelai-io",
+      "name": "NovelAI 태그 생성기 (novelai.io)",
+      "category": "프롬프트·레퍼런스",
+      "url": "https://novelai.io/tags",
+      "desc": "도메인 판매 페이지",
+      "status": "old",
+      "added": "2026-07-12",
+      "oldReason": "Spaceship에 매물로 등록된 파킹 페이지, 정식 서비스 아님(정식은 novelai.net)"
+    },
+    {
+      "id": "bm-promeai",
+      "name": "PromeAI",
+      "category": "이미지생성",
+      "url": "https://www.promeai.com/",
+      "desc": "건축·인테리어 렌더링 특화 AI 이미지 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-media-io",
+      "name": "Media.io",
+      "category": "AI툴모음·허브",
+      "url": "https://www.media.io/",
+      "desc": "영상·오디오·이미지 AI 툴 모음 플랫폼",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-openart",
+      "name": "OpenArt",
+      "category": "이미지생성",
+      "url": "https://openart.ai/suite/home",
+      "desc": "이미지·영상 생성 올인원 크리에이터 스튜디오",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-bbanana",
+      "name": "BBANANA (빠나나 AI)",
+      "category": "이미지생성",
+      "url": "https://www.bbanana.ai/",
+      "desc": "나노바나나·미드저니·Veo·Kling 등을 한 곳에서 쓰는 한국형 통합 AI 생성 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-tripo3d",
+      "name": "Tripo AI",
+      "category": "3D생성",
+      "url": "https://studio.tripo3d.ai/workspace/generate",
+      "desc": "텍스트·이미지로 몇 초 만에 3D 모델을 생성하는 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-hunyuan3d-tencent",
+      "name": "텐센트 훈위안 3D",
+      "category": "3D생성",
+      "url": "https://3d.hunyuan.tencent.com/",
+      "desc": "텐센트의 오픈 3D 생성 모델 공식 서비스 페이지",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-meshy",
+      "name": "Meshy AI",
+      "category": "3D생성",
+      "url": "https://www.meshy.ai/",
+      "desc": "대표적인 텍스트·이미지 기반 3D 모델 생성기",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-hitem3d",
+      "name": "Hitem3D",
+      "category": "3D생성",
+      "url": "https://www.hitem3d.ai/",
+      "desc": "이미지에서 고품질 3D 모델을 생성하는 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-yvo3d",
+      "name": "YVO3D",
+      "category": "3D생성",
+      "url": "https://yvo3d.com/",
+      "desc": "이미지·스케치·텍스트로 게임·제품용 3D 모델을 생성하는 AI 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-meshcapade",
+      "name": "Meshcapade Me",
+      "category": "3D생성",
+      "url": "https://me.meshcapade.com/",
+      "desc": "사진 기반 3D 아바타·바디 스캔 생성 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-hyperhuman-rodin",
+      "name": "HyperHuman (Rodin)",
+      "category": "3D생성",
+      "url": "https://hyperhuman.deemos.com/rodin",
+      "desc": "Deemos의 고품질 3D 에셋 생성 모델 Rodin",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-immersity-ai",
+      "name": "Immersity AI",
+      "category": "3D생성",
+      "url": "https://www.immersity.ai/",
+      "desc": "이미지·영상을 3D(공간 영상)로 변환하는 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-polycam",
+      "name": "Polycam",
+      "category": "3D생성",
+      "url": "https://poly.cam/library",
+      "desc": "LiDAR·사진 기반 3D 스캔 앱",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-spline",
+      "name": "Spline",
+      "category": "3D생성",
+      "url": "https://spline.design/",
+      "desc": "브라우저에서 3D 웹 경험을 만드는 디자인 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-wonder-studio",
+      "name": "Wonder Studio",
+      "category": "3D생성",
+      "url": "https://wonderdynamics.com/",
+      "desc": "실사 촬영본에 CG 캐릭터를 자동 합성하는 AI VFX 툴(오토데스크 계열)",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-plask",
+      "name": "Plask Motion",
+      "category": "3D생성",
+      "url": "https://plask.ai/ko",
+      "desc": "영상에서 모션캡처 애니메이션을 추출하는 AI 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-genaimo",
+      "name": "Genaimo",
+      "category": "3D생성",
+      "url": "https://genaimo.ailive.world/",
+      "desc": "AI 모션캡처·애니메이션 생성 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-marble-worldlabs",
+      "name": "Marble (World Labs)",
+      "category": "3D생성",
+      "url": "https://marble.worldlabs.ai/",
+      "desc": "World Labs(Fei-Fei Li)의 3D 월드 생성 모델",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-things-morflax",
+      "name": "Morflax Things",
+      "category": "3D생성",
+      "url": "https://things.morflax.com/",
+      "desc": "브라우저에서 3D 기기 목업을 빠르게 만드는 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-vmod",
+      "name": "VMOD 3D Library",
+      "category": "3D생성",
+      "url": "https://vmod.xyz/",
+      "desc": "SwatchOn이 운영하는 AI 기반 3D 원단 디지털 라이브러리",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-top3d-ai",
+      "name": "Top 3D AI 리더보드",
+      "category": "AI툴모음·허브",
+      "url": "https://www.top3d.ai/ko/leaderboard",
+      "desc": "3D AI 툴 사용자 투표 기반 랭킹·비교 사이트",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-hf-partpacker",
+      "name": "PartPacker (HF Space)",
+      "category": "3D생성",
+      "url": "https://huggingface.co/spaces/nvidia/PartPacker",
+      "desc": "엔비디아의 파츠 단위 3D 생성 모델 데모",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-hf-hunyuan3d-21",
+      "name": "Hunyuan3D-2.1 (HF Space)",
+      "category": "3D생성",
+      "url": "https://huggingface.co/spaces/tencent/Hunyuan3D-2.1",
+      "desc": "텐센트 훈위안 3D 모델 HF 데모 스페이스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-hf-sparc3d",
+      "name": "Sparc3D",
+      "category": "3D생성",
+      "url": "https://huggingface.co/spaces/ilcve21/Sparc3D",
+      "desc": "고해상도 3D 형상 생성 연구 모델 데모",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-gh-trellis",
+      "name": "TRELLIS (Microsoft, GitHub)",
+      "category": "3D생성",
+      "url": "https://github.com/microsoft/TRELLIS",
+      "desc": "마이크로소프트의 구조화 3D 잠재표현 생성 연구 리포지토리",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-sharp-ml",
+      "name": "Image to 3D (sharp-ml)",
+      "category": "3D생성",
+      "url": "https://sharp-ml.vercel.app/",
+      "desc": "사진을 3D로 변환하는 개인 연구 데모",
+      "status": "old",
+      "added": "2026-07-12",
+      "oldReason": "로딩 화면만 뜨는 깨진 상태"
+    },
+    {
+      "id": "bm-suno",
+      "name": "Suno",
+      "category": "오디오·음악",
+      "url": "https://app.suno.ai/",
+      "desc": "텍스트로 완성곡을 생성하는 대표 AI 음악 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-udio",
+      "name": "Udio",
+      "category": "오디오·음악",
+      "url": "https://www.udio.com/",
+      "desc": "고품질 AI 음악 생성 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-soundraw",
+      "name": "SOUNDRAW",
+      "category": "오디오·음악",
+      "url": "https://soundraw.io/",
+      "desc": "저작권 걱정 없는 AI 배경음악 생성 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-epidemic-sound",
+      "name": "Epidemic Sound",
+      "category": "오디오·음악",
+      "url": "https://www.epidemicsound.com/",
+      "desc": "로열티 프리 음악·효과음 라이브러리",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-typecast",
+      "name": "Typecast",
+      "category": "오디오·음악",
+      "url": "https://typecast.ai/kr",
+      "desc": "AI TTS·가상인간 영상 제작 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-clova-dubbing",
+      "name": "클로바더빙",
+      "category": "오디오·음악",
+      "url": "https://clovadubbing.naver.com/",
+      "desc": "네이버 클로바의 AI 더빙 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-openai-fm",
+      "name": "OpenAI.fm",
+      "category": "오디오·음악",
+      "url": "https://www.openai.fm/",
+      "desc": "OpenAI의 TTS 보이스 나레이션 데모 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-varco-sound",
+      "name": "VARCO Sound",
+      "category": "오디오·음악",
+      "url": "https://sound.varco.ai/ko/create",
+      "desc": "NC AI의 고품질 사운드 생성 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-hf-mmaudio",
+      "name": "MMAudio (HF Space)",
+      "category": "오디오·음악",
+      "url": "https://huggingface.co/spaces/hkchengrex/MMAudio",
+      "desc": "짧은 영상에 어울리는 사운드를 자동 생성하는 모델 데모",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-gh-musicgen-colab",
+      "name": "MusicGen-colab (GitHub)",
+      "category": "오디오·음악",
+      "url": "https://github.com/camenduru/MusicGen-colab",
+      "desc": "Meta MusicGen을 원클릭 실행하는 Colab 노트북 모음",
+      "status": "old",
+      "added": "2026-07-12",
+      "oldReason": "2023년 7월 이후 업데이트 없는 방치된 저장소"
+    },
+    {
+      "id": "bm-claude",
+      "name": "Claude",
+      "category": "LLM·챗봇",
+      "url": "https://claude.ai/",
+      "desc": "Anthropic의 대화형 AI 어시스턴트",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-grok",
+      "name": "Grok",
+      "category": "LLM·챗봇",
+      "url": "https://grok.com/",
+      "desc": "xAI의 대화형 AI(이미지 생성 Imagine 포함)",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-gemini",
+      "name": "Gemini",
+      "category": "LLM·챗봇",
+      "url": "https://gemini.google.com/app",
+      "desc": "구글의 대화형 AI 어시스턴트",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-meta-ai",
+      "name": "Meta AI",
+      "category": "LLM·챗봇",
+      "url": "https://www.meta.ai/",
+      "desc": "메타의 대화형 AI 어시스턴트",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-perplexity",
+      "name": "Perplexity",
+      "category": "LLM·챗봇",
+      "url": "https://www.perplexity.ai/",
+      "desc": "출처 기반 답변에 강점을 둔 AI 검색 엔진",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-deepseek",
+      "name": "DeepSeek",
+      "category": "LLM·챗봇",
+      "url": "https://www.deepseek.com/",
+      "desc": "중국의 오픈웨이트 LLM 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-upstage",
+      "name": "Upstage",
+      "category": "LLM·챗봇",
+      "url": "https://www.upstage.ai/",
+      "desc": "한국 AI 기업 업스테이지의 LLM·솔루션",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-clova-x",
+      "name": "CLOVA X",
+      "category": "LLM·챗봇",
+      "url": "https://clova-x.naver.com/welcome",
+      "desc": "네이버의 대화형 AI 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-zeta-ai",
+      "name": "Zeta AI",
+      "category": "LLM·챗봇",
+      "url": "https://zeta-ai.io/ko",
+      "desc": "캐릭터 기반 AI 채팅 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-babechat",
+      "name": "BabeChat AI",
+      "category": "LLM·챗봇",
+      "url": "https://babechat.ai/ko/dashboard",
+      "desc": "캐릭터 기반 AI 채팅 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-qanda",
+      "name": "QANDA",
+      "category": "LLM·챗봇",
+      "url": "https://qanda.ai/ko",
+      "desc": "문제 풀이 특화 교육용 AI 챗봇",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-felo",
+      "name": "Felo",
+      "category": "LLM·챗봇",
+      "url": "https://felo.ai/search",
+      "desc": "AI 리서치·검색 정리 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-genspark",
+      "name": "Genspark",
+      "category": "에이전트·자동화",
+      "url": "https://www.genspark.ai/",
+      "desc": "에이전틱 검색·자동화 엔진",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-manus",
+      "name": "Manus",
+      "category": "에이전트·자동화",
+      "url": "https://manus.im/",
+      "desc": "범용 자율 AI 에이전트 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-n8n",
+      "name": "n8n",
+      "category": "에이전트·자동화",
+      "url": "https://n8n.io/",
+      "desc": "워크플로우 자동화 소프트웨어(AI 노드 지원)",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-make-com",
+      "name": "Make",
+      "category": "에이전트·자동화",
+      "url": "https://www.make.com/en",
+      "desc": "앱 연동·자동화 워크플로우 플랫폼",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-simular",
+      "name": "Simular",
+      "category": "에이전트·자동화",
+      "url": "https://www.simular.ai/",
+      "desc": "컴퓨터 사용 에이전트·업무 자동화 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-lobehub",
+      "name": "LobeHub",
+      "category": "에이전트·자동화",
+      "url": "https://lobehub.com/ko",
+      "desc": "오픈소스 AI 에이전트·챗봇 프레임워크",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-mcpmarket",
+      "name": "MCP 마켓",
+      "category": "에이전트·자동화",
+      "url": "https://mcpmarket.com/ko",
+      "desc": "MCP 서버를 찾아주는 마켓플레이스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-pulsemcp",
+      "name": "PulseMCP",
+      "category": "에이전트·자동화",
+      "url": "https://www.pulsemcp.com/",
+      "desc": "MCP 생태계 소식·서버 디렉터리",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-smithery",
+      "name": "Smithery",
+      "category": "에이전트·자동화",
+      "url": "https://smithery.ai/",
+      "desc": "Model Context Protocol 레지스트리",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-cursor-directory",
+      "name": "Cursor Directory",
+      "category": "에이전트·자동화",
+      "url": "https://cursor.directory/",
+      "desc": "Cursor 룰·MCP 서버 디렉터리",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-mee6",
+      "name": "MEE6",
+      "category": "에이전트·자동화",
+      "url": "https://mee6.xyz/en/ai",
+      "desc": "디스코드용 AI 봇 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-notebooklm",
+      "name": "Google NotebookLM",
+      "category": "에이전트·자동화",
+      "url": "https://notebooklm.google/",
+      "desc": "자료 기반 리서치·요약 AI 노트 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-lilys-ai",
+      "name": "Lilys AI",
+      "category": "에이전트·자동화",
+      "url": "https://lilys.ai/",
+      "desc": "영상·음성·PDF·웹사이트를 요약해주는 AI 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-lumary",
+      "name": "Lumary",
+      "category": "에이전트·자동화",
+      "url": "https://lumary.me/ko",
+      "desc": "유튜브 링크의 자막 기반 내용을 요약해주는 AI 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-bhindi",
+      "name": "Bhindi",
+      "category": "에이전트·자동화",
+      "url": "https://bhindi.io/",
+      "desc": "AI 에이전트 개발 도구",
+      "status": "old",
+      "added": "2026-07-12",
+      "oldReason": "개발 중단 공지, 후속 프로젝트 Mogra(mogra.xyz)로 안내"
+    },
+    {
+      "id": "bm-agentation",
+      "name": "Agentation",
+      "category": "에이전트·자동화",
+      "url": "https://www.agentation.com/",
+      "desc": "UI 요소에 주석을 달아 AI 코딩 에이전트용 구조화 피드백으로 바꿔주는 개발자 도구",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-loops-elorm",
+      "name": "loops!",
+      "category": "에이전트·자동화",
+      "url": "https://loops.elorm.xyz/",
+      "desc": "사전 제작된 에이전트 루프 모음",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-kairos",
+      "name": "Kairos",
+      "category": "에이전트·자동화",
+      "url": "https://www.kairos.computer/",
+      "desc": "AI 기반 업무 자동화 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-context-ai",
+      "name": "Context",
+      "category": "에이전트·자동화",
+      "url": "https://www.context.ai/",
+      "desc": "AI 오피스 스위트",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-mirra",
+      "name": "Mirra",
+      "category": "에이전트·자동화",
+      "url": "https://www.mirra.my/ko",
+      "desc": "브랜드 톤을 학습해 SNS 콘텐츠를 자동 생성·게시·분석하는 AI 마케팅 플랫폼",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-griptape-foundry",
+      "name": "Griptape (Foundry)",
+      "category": "에이전트·자동화",
+      "url": "https://www.foundry.com/products/griptape",
+      "desc": "Foundry(Nuke·Mari 제작사)의 스튜디오용 AI 모델·에이전트 오케스트레이션 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-flopperam",
+      "name": "Flopperam",
+      "category": "플러그인·DCC",
+      "url": "https://www.flopperam.com/",
+      "desc": "자연어 명령으로 언리얼 엔진을 직접 제어하는 AI 에이전트",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-cursor",
+      "name": "Cursor",
+      "category": "코딩·개발",
+      "url": "https://www.cursor.com/",
+      "desc": "AI 네이티브 코드 에디터",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-replit",
+      "name": "Replit",
+      "category": "코딩·개발",
+      "url": "https://replit.com/",
+      "desc": "브라우저 기반 AI 바이브코딩·앱 빌더",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-lovable",
+      "name": "Lovable",
+      "category": "코딩·개발",
+      "url": "https://lovable.dev/",
+      "desc": "프롬프트로 웹앱을 만드는 바이브코딩 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-google-ai-studio",
+      "name": "Google AI Studio",
+      "category": "코딩·개발",
+      "url": "https://aistudio.google.com/",
+      "desc": "제미나이 모델 프로토타이핑·API 개발 플랫폼",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-google-antigravity",
+      "name": "Google Antigravity",
+      "category": "코딩·개발",
+      "url": "https://antigravity.google/",
+      "desc": "구글의 에이전틱 코딩 IDE",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-ollama",
+      "name": "Ollama",
+      "category": "코딩·개발",
+      "url": "https://ollama.com/",
+      "desc": "로컬에서 오픈 LLM을 돌리는 런타임",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-lazycodex",
+      "name": "LazyCodex",
+      "category": "코딩·개발",
+      "url": "https://lazycodex.ai/",
+      "desc": "복잡한 코드베이스용 Codex 에이전트 하네스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-canva-code-gen",
+      "name": "Canva AI Code Generator",
+      "category": "코딩·개발",
+      "url": "https://www.canva.com/ai-code-generator/",
+      "desc": "디자인을 코드로 변환하는 캔바의 AI 기능",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-shadcn-ui",
+      "name": "shadcn/ui",
+      "category": "디자인·프리젠테이션",
+      "url": "https://ui.shadcn.com/",
+      "desc": "개발자용 UI 컴포넌트 라이브러리",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-framer",
+      "name": "Framer",
+      "category": "디자인·프리젠테이션",
+      "url": "https://www.framer.com/",
+      "desc": "노코드 웹사이트 빌더(AI 기능 포함)",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-napkin-ai",
+      "name": "Napkin AI",
+      "category": "디자인·프리젠테이션",
+      "url": "https://app.napkin.ai/signin",
+      "desc": "텍스트를 다이어그램·비주얼로 바꿔주는 AI 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-shots-so",
+      "name": "Shots",
+      "category": "디자인·프리젠테이션",
+      "url": "https://shots.so/",
+      "desc": "목업 이미지를 만들어주는 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-polaris-office",
+      "name": "폴라리스오피스",
+      "category": "디자인·프리젠테이션",
+      "url": "https://www.polarisoffice.com/ko/download",
+      "desc": "한글 지원 오피스 프로그램",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-material-design-3",
+      "name": "Material Design 3",
+      "category": "디자인·프리젠테이션",
+      "url": "https://m3.material.io/",
+      "desc": "구글 디자인 시스템 공식 레퍼런스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-drfonts",
+      "name": "drFonts",
+      "category": "디자인·프리젠테이션",
+      "url": "https://drfonts.com/",
+      "desc": "AI 폰트 생성 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-mago-studio",
+      "name": "Mago.studio",
+      "category": "디자인·프리젠테이션",
+      "url": "https://app.mago.studio/",
+      "desc": "실사·애니메이션 영상을 원하는 스타일로 바꿔주는 AI 비디오 스타일 전환 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-flashboards",
+      "name": "FlashBoards",
+      "category": "디자인·프리젠테이션",
+      "url": "https://flashboards.yaroflasher.com/",
+      "desc": "여러 AI 영상·이미지 모델을 조합한 검증된 워크플로우 제공 플랫폼",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-google-labs-mixboard",
+      "name": "Google Labs — Mixboard",
+      "category": "디자인·프리젠테이션",
+      "url": "https://labs.google.com/mixboard/projects",
+      "desc": "무드보드처럼 이미지를 조합·생성하는 구글 랩스 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-google-labs-whisk-imagefx",
+      "name": "Google Labs — Whisk / ImageFX",
+      "category": "이미지생성",
+      "url": "https://labs.google/fx/ko/tools/image-fx",
+      "desc": "이미지를 리믹스·생성하는 구글 랩스의 무료 이미지 생성 툴(Whisk 포함)",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-crack-wrtn",
+      "name": "뤼튼 크랙",
+      "category": "AI툴모음·허브",
+      "url": "https://crack.wrtn.ai/",
+      "desc": "뤼튼(Wrtn)의 크리에이티브 AI 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-loremachine",
+      "name": "Lore Machine",
+      "category": "기타",
+      "url": "https://www.loremachine.world/",
+      "desc": "텍스트 스토리를 비주얼로 시각화해주는 AI 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-abocado-ai",
+      "name": "Abocado AI",
+      "category": "이미지생성",
+      "url": "https://abocado.ai/ko/ai/explore/fashion",
+      "desc": "패션 이미지를 AI로 바꿔주는 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-musicfy",
+      "name": "Musicfy AI",
+      "category": "오디오·음악",
+      "url": "https://create.musicfy.lol/",
+      "desc": "AI 보이스·음악 생성 툴",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-3dtoall-c4d",
+      "name": "AI Power for Cinema 4D",
+      "category": "플러그인·DCC",
+      "url": "https://www.3dtoall.com/aipower-c4d/",
+      "desc": "Cinema 4D용 AI 렌더·워크플로우 플러그인",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-ludus-ai",
+      "name": "Ludus AI",
+      "category": "플러그인·DCC",
+      "url": "https://ludusengine.com/",
+      "desc": "언리얼 엔진용 AI 툴킷",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-oplux",
+      "name": "Oplux",
+      "category": "플러그인·DCC",
+      "url": "https://www.oplux.ai/",
+      "desc": "포토샵 내장형 AI 파워 플러그인",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-tapnow",
+      "name": "TapNow",
+      "category": "AI툴모음·허브",
+      "url": "https://app.tapnow.ai/home",
+      "desc": "광고·영화 스토리텔링용 AI 비주얼 크리에이션 엔진",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-kie-ai",
+      "name": "Kie.ai",
+      "category": "AI툴모음·허브",
+      "url": "https://kie.ai/ko/market",
+      "desc": "비디오·이미지·음악 생성 API 모델 갤러리",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-comfy-org",
+      "name": "ComfyUI",
+      "category": "AI툴모음·허브",
+      "url": "https://www.comfy.org/",
+      "desc": "노드 기반 오픈소스 생성 AI 워크플로우 툴(이미지·영상·3D·오디오)",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-runninghub",
+      "name": "RunningHub",
+      "category": "AI툴모음·허브",
+      "url": "https://www.runninghub.ai/",
+      "desc": "클라우드에서 ComfyUI 워크플로우를 실행하는 서비스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-arena-ai",
+      "name": "Arena AI",
+      "category": "AI툴모음·허브",
+      "url": "https://arena.ai/",
+      "desc": "여러 AI 모델을 겨루게 해 비교하는 LLM 배틀·리더보드 플랫폼",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-aivalley",
+      "name": "AI Valley",
+      "category": "AI툴모음·허브",
+      "url": "https://aivalley.ai/",
+      "desc": "1780개 이상 AI 툴을 정리한 AI 툴 디렉터리",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-bestfreeaiwebsites",
+      "name": "Best Free AI Websites",
+      "category": "AI툴모음·허브",
+      "url": "https://bestfreeaiwebsites.com/",
+      "desc": "무료 AI 툴을 카테고리별로 정리한 AI 툴 디렉터리 사이트",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-opencreator",
+      "name": "OpenCreator",
+      "category": "AI툴모음·허브",
+      "url": "https://opencreator.io/",
+      "desc": "크리에이터용 통합 Gen-AI 워크스테이션",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-aalab",
+      "name": "AALab",
+      "category": "AI툴모음·허브",
+      "url": "https://www.aalab.com/",
+      "desc": "3D·영상 에셋을 빠르게 미리보기·관리하는 파일 매니저 'Found'를 만드는 회사",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-stability-ai",
+      "name": "Stability AI",
+      "category": "AI툴모음·허브",
+      "url": "https://stability.ai/",
+      "desc": "Stable Diffusion 개발사 공식 사이트",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-promptbase",
+      "name": "PromptBase",
+      "category": "프롬프트·레퍼런스",
+      "url": "https://promptbase.com/",
+      "desc": "프롬프트 마켓플레이스",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-prompthero",
+      "name": "PromptHero",
+      "category": "프롬프트·레퍼런스",
+      "url": "https://prompthero.com/",
+      "desc": "이미지 생성 프롬프트 검색 사이트",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-promptsref",
+      "name": "PromptsRef",
+      "category": "프롬프트·레퍼런스",
+      "url": "https://promptsref.com/",
+      "desc": "미드저니 프롬프트·SREF 코드 라이브러리",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-promptomania",
+      "name": "PromptoMania",
+      "category": "프롬프트·레퍼런스",
+      "url": "https://promptomania.com/",
+      "desc": "다양한 AI 모델용 프롬프트 빌더·가이드 허브",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-ptsearch",
+      "name": "Prompt Search",
+      "category": "프롬프트·레퍼런스",
+      "url": "https://www.ptsearch.info/home/",
+      "desc": "프롬프트 검색 엔진",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-gryun-prompt",
+      "name": "Gryun Prompt",
+      "category": "프롬프트·레퍼런스",
+      "url": "https://gryun-prompt.com/",
+      "desc": "AI 프롬프트 작성을 돕는 도우미 도구로 추정",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-gryun-aiplus",
+      "name": "Gryun AI Plus",
+      "category": "프롬프트·레퍼런스",
+      "url": "https://gryun-aiplus.com/",
+      "desc": "AI 콘텐츠 큐레이션 허브",
+      "status": "old",
+      "added": "2026-07-12",
+      "oldReason": "콘텐츠 거의 없는 빈 페이지, 파킹형으로 추정"
+    },
+    {
+      "id": "bm-sora-prompt-book",
+      "name": "Sora Prompt Book (프리셋 모음)",
+      "category": "프롬프트·레퍼런스",
+      "url": "https://slashpage.com/sora",
+      "desc": "Sora용 캐릭터·카툰 프리셋 프롬프트 모음",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-ltx-prompt-guide",
+      "name": "LTX-2.3 프롬프트 가이드",
+      "category": "프롬프트·레퍼런스",
+      "url": "https://ltx.io/model/model-blog/ltx-2-3-prompt-guide",
+      "desc": "LTX 영상 생성 모델 프롬프트 작성 가이드",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-cc101",
+      "name": "CC101 — Claude Code 입문 가이드",
+      "category": "프롬프트·레퍼런스",
+      "url": "https://cc101.axwith.com/ko",
+      "desc": "Claude Code 한국어 입문 가이드",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-codex-101",
+      "name": "Codex 101",
+      "category": "프롬프트·레퍼런스",
+      "url": "https://swhan0329.github.io/codex-101/",
+      "desc": "OpenAI Codex 실전 가이드",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-fastcampus-comfyui",
+      "name": "패스트캠퍼스 ComfyUI 강의",
+      "category": "프롬프트·레퍼런스",
+      "url": "https://fastcampus.co.kr/data_online_kontext",
+      "desc": "ComfyUI×나노바나나 실무 강의",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-udemy-comfyui",
+      "name": "Udemy ComfyUI 강의",
+      "category": "프롬프트·레퍼런스",
+      "url": "https://www.udemy.com/topic/comfyui/",
+      "desc": "ComfyUI 온라인 강의 모음",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-yt-comfyui-course",
+      "name": "ComfyUI Course (YouTube, 5시간)",
+      "category": "프롬프트·레퍼런스",
+      "url": "https://www.youtube.com/watch?v=HkoRkNLWQzY",
+      "desc": "ComfyUI를 처음부터 배우는 5시간짜리 무료 강의 영상",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-yt-2d-to-3d",
+      "name": "2D→3D 원클릭 변환 튜토리얼 (YouTube)",
+      "category": "프롬프트·레퍼런스",
+      "url": "https://www.youtube.com/watch?v=AORwUQYc_5s",
+      "desc": "2D 이미지를 3D 오브젝트로 바꾸는 방법 튜토리얼",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-chalk-daehong",
+      "name": "대홍기획 AI STUDIO",
+      "category": "스튜디오 레퍼런스",
+      "url": "https://www.daehong.com/work/ai/ai-studio",
+      "desc": "대홍기획의 AI 활용 작업 포트폴리오",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-punchline-film",
+      "name": "Punchline Film",
+      "category": "스튜디오 레퍼런스",
+      "url": "https://punchlinefilm.com/work",
+      "desc": "커머셜·브랜드 콘텐츠 제작 스튜디오 포트폴리오",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-bilder-work",
+      "name": "BILDER",
+      "category": "스튜디오 레퍼런스",
+      "url": "https://bilder.work/",
+      "desc": "브랜드 아이덴티티에 맞춘 이미지를 제작하는 AI 크리에이티브 디자인 스튜디오",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-funai",
+      "name": "fun ai",
+      "category": "스튜디오 레퍼런스",
+      "url": "https://funai.co.kr/",
+      "desc": "AI 이미지 활용 크리에이티브 스튜디오",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-blink-ai",
+      "name": "블링크스튜디오 (blink ai)",
+      "category": "스튜디오 레퍼런스",
+      "url": "https://litt.ly/blink___ai",
+      "desc": "AI 활용 크리에이티브 스튜디오 링크 모음",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-lumiying",
+      "name": "LumiYing 쇼케이스",
+      "category": "스튜디오 레퍼런스",
+      "url": "https://lumiying.com/showcase",
+      "desc": "AI 영상 사례 쇼케이스 페이지",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-yt-ai-mv-japan",
+      "name": "AI만으로 만든 가상 뮤직비디오 사례 (YouTube)",
+      "category": "스튜디오 레퍼런스",
+      "url": "https://www.youtube.com/watch?v=0x63miUBhnQ",
+      "desc": "Suno·Midjourney·Kling 등으로 제작한 AI 뮤직비디오 제작기 영상",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-openai-blog",
+      "name": "OpenAI Blog",
+      "category": "기타",
+      "url": "https://openai.com/blog",
+      "desc": "OpenAI 공식 블로그",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-deepmind-genie3",
+      "name": "Genie 3 (Google DeepMind 블로그)",
+      "category": "기타",
+      "url": "https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/",
+      "desc": "구글 딥마인드의 월드모델 Genie 3 소개 글",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-meta-ai-demos",
+      "name": "Meta AI Demos",
+      "category": "기타",
+      "url": "https://www.aidemos.meta.com/segment-anything/gallery/",
+      "desc": "메타의 Segment Anything 등 AI 연구 데모 갤러리",
+      "status": "active",
+      "added": "2026-07-12"
+    },
+    {
+      "id": "bm-aitestkitchen-musiclm",
+      "name": "AI Test Kitchen — MusicLM",
+      "category": "오디오·음악",
+      "url": "https://aitestkitchen.withgoogle.com/experiments/music-lm",
+      "desc": "구글의 텍스트 기반 AI 작곡 실험(MusicLM)",
+      "status": "old",
+      "added": "2026-07-12",
+      "oldReason": "Google Labs의 MusicFX로 리브랜딩·리다이렉트됨"
+    },
+    {
+      "id": "bm-bard",
+      "name": "Bard",
+      "category": "LLM·챗봇",
+      "url": "https://bard.google.com/",
+      "desc": "구글의 초기 대화형 AI — Gemini로 통합·리브랜딩됨",
+      "status": "old",
+      "added": "2026-07-12",
+      "oldReason": "Gemini(gemini.google.com)로 리브랜딩·통합됨"
+    }
+  ]
+}
