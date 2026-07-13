@@ -1,6 +1,30 @@
 {
-  "updated": "2026-07-11 21:10 KST",
+  "updated": "2026-07-13 20:30 KST",
   "items": [
+    {
+      "id": "2026-07-gh-opencut",
+      "name": "OpenCut",
+      "category": "영상편집",
+      "type": "github",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "org": "OpenCut-app",
+      "added": "2026-07-13",
+      "status": "active",
+      "desc": "오픈소스 CapCut 대안 — 웹·데스크톱·모바일 지원, Rust 코어로 로컬 GPU 합성·효과·마스크 처리, MIT 라이선스",
+      "stats": "★64.1k"
+    },
+    {
+      "id": "2026-07-web-comfy-mcp",
+      "name": "Comfy MCP",
+      "category": "에이전트도구",
+      "type": "website",
+      "url": "https://docs.comfy.org/agent-tools/cloud",
+      "org": "Comfy-Org",
+      "added": "2026-07-13",
+      "status": "active",
+      "desc": "Claude·Cursor 등 AI 에이전트를 ComfyUI 워크플로우에 직결하는 MCP 커넥터 — 자연어로 워크플로우 생성·실행·공유",
+      "stats": "베타 (2026-06-29 출시)"
+    },
     {
       "id": "2026-07-gh-agent-skills",
       "name": "agent-skills",

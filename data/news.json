@@ -1,6 +1,57 @@
 {
-  "updated": "2026-07-11 20:30 KST",
+  "updated": "2026-07-13 20:30 KST",
   "items": [
+    {
+      "id": "2026-07-13-N01",
+      "date": "2026-07-13",
+      "title": "오픈소스 영상 편집기 'OpenCut', GitHub 트렌딩 1위 — CapCut 대안으로 급부상",
+      "summary": "웹·데스크톱·모바일을 지원하는 MIT 라이선스 영상 편집기로, Next.js 웹 프론트와 Rust 코어로 영상 처리(합성·효과·마스크)를 로컬에서 수행해 파일이 기기 밖으로 나가지 않는다. 1년도 안 돼 6만 스타를 넘기며 Vercel·fal.ai의 지원을 받고 있다.",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "source": "GitHub Trending",
+      "tags": ["영상편집", "에이전트도구"],
+      "importance": "high"
+    },
+    {
+      "id": "2026-07-13-N02",
+      "date": "2026-07-13",
+      "published": "2026-06-29",
+      "title": "ComfyUI, 'Comfy MCP' 공개 — Claude·Cursor 에이전트를 워크플로우에 직결",
+      "summary": "Claude, Codex, Cursor 등 AI 에이전트가 자연어만으로 ComfyUI 워크플로우를 검색·생성·실행할 수 있게 하는 MCP 커넥터. 재현 가능한 파이프라인을 URL로 공유해 팀 단위 재사용도 가능하다.",
+      "url": "https://blog.comfy.org/p/comfy-mcp-turn-your-agent-into-a",
+      "source": "ComfyUI Blog",
+      "tags": ["ComfyUI", "에이전트도구"],
+      "importance": "high"
+    },
+    {
+      "id": "2026-07-13-N03",
+      "date": "2026-07-13",
+      "published": "2026-07-07",
+      "title": "Meta, 이미지 생성 모델 'Muse Image' 공개 — Instagram·WhatsApp에 즉시 통합",
+      "summary": "메타 AI 챗봇에 새로 탑재된 이미지 생성 모델로, 텍스트 프롬프트 생성과 기존 사진 수정을 모두 지원한다. WhatsApp·Instagram에 30여 종의 신규 AI 효과로 곧바로 반영됐다.",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-07/meta-debuts-new-ai-image-generation-model-inside-chatbot-instagram",
+      "source": "Bloomberg",
+      "tags": ["생성형모델", "빅테크플랫폼"]
+    },
+    {
+      "id": "2026-07-13-N04",
+      "date": "2026-07-13",
+      "published": "2026-07-09",
+      "title": "OpenAI, 팀 업무 도구 'ChatGPT Work' 출시",
+      "summary": "GPT-5.6 기반으로 팀의 흩어진 메모·초안·업무 도구 컨텍스트를 모아 작업을 완성해주는 신규 제품. 데스크톱은 모든 요금제에 즉시 제공되며, 웹·모바일도 순차 배포된다.",
+      "url": "https://www.axios.com/2026/07/09/ai-openai-gpt-release",
+      "source": "Axios",
+      "tags": ["LLM", "빅테크플랫폼"]
+    },
+    {
+      "id": "2026-07-13-N05",
+      "date": "2026-07-13",
+      "published": "2026-07-09",
+      "title": "Anthropic, Claude 사용 패턴 '성찰 대시보드' 베타 공개",
+      "summary": "자신의 Claude 사용 패턴을 추적·시각화하고 무음 시간대를 설정하며 더 의도적인 AI 사용을 돕는 인사이트를 제공하는 신규 대시보드. Memory 기능을 켠 Free·Pro·Max 사용자에게 웹·데스크톱으로 제공된다.",
+      "url": "https://www.anthropic.com/news",
+      "source": "Anthropic",
+      "tags": ["빅테크플랫폼", "일반소식"]
+    },
     {
       "id": "2026-07-11-N01",
       "date": "2026-07-11",
