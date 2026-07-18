@@ -1,6 +1,66 @@
 {
-  "updated": "2026-07-14 20:30 KST",
+  "updated": "2026-07-18 20:20 KST",
   "items": [
+    {
+      "id": "2026-07-hf-inkling",
+      "name": "Inkling",
+      "category": "LLM",
+      "type": "huggingface",
+      "url": "https://huggingface.co/thinkingmachines/Inkling",
+      "org": "thinkingmachines",
+      "added": "2026-07-18",
+      "status": "active",
+      "desc": "미라 무라티의 싱킹 머신스 첫 오픈웨이트 모델 — 975B(활성 41B) MoE, 텍스트·이미지·오디오·비디오 45조 토큰 학습. 파인튜닝 커스터마이징에 최적화",
+      "stats": "다운로드 12.5k · ♥ 1.01k · 2026-07-14 공개"
+    },
+    {
+      "id": "2026-07-hf-nvidia-ardy",
+      "name": "ARDY",
+      "category": "3D",
+      "type": "huggingface",
+      "url": "https://huggingface.co/nvidia/ARDY-Core-RP-20FPS-Horizon40",
+      "org": "nvidia",
+      "added": "2026-07-18",
+      "status": "active",
+      "desc": "텍스트 프롬프트로 3D 캐릭터 모션을 프레임 단위 실시간 스트리밍 생성하는 자기회귀 확산 모델 — 키프레임·궤적 등 운동학적 제약을 추론 시 재학습 없이 적용 가능. SIGGRAPH 2026 논문",
+      "stats": "20FPS · Horizon40 버전"
+    },
+    {
+      "id": "2026-07-gh-lingbot-map",
+      "name": "lingbot-map",
+      "category": "3D",
+      "type": "github",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "org": "Robbyant",
+      "added": "2026-07-18",
+      "status": "active",
+      "desc": "스트리밍 비디오에서 실시간 3D 장면을 복원하는 피드포워드 3D 파운데이션 모델 — 518×378 해상도 기준 약 20FPS, 페이지드 KV 캐시로 1만 프레임 이상 처리. Apache 2.0",
+      "stats": "★12.5k (GitHub 트렌딩)"
+    },
+    {
+      "id": "2026-07-web-modddif",
+      "name": "Modddif",
+      "category": "3D",
+      "type": "website",
+      "url": "https://modddif.com/",
+      "org": "Modddif",
+      "added": "2026-07-18",
+      "status": "active",
+      "desc": "레퍼런스 이미지·텍스트 프롬프트로 3D 메시를 텍스처링하는 AI 툴 — 노멀맵 추정·편집, 메시 단순화 기능 포함. 무료 플랜 제공 (Stefan 3D AI 채널 영상에서 소개)",
+      "stats": "무료 플랜 · Pro 유료"
+    },
+    {
+      "id": "2026-07-civitai-krea2-ltx-ideogram-wf",
+      "name": "Krea2 & LTX2.3 & Ideogram4 워크플로우 컬렉션",
+      "category": "Workflow",
+      "type": "civitai",
+      "url": "https://civitai.com/models/579280",
+      "org": "AiMetatron",
+      "added": "2026-07-18",
+      "status": "active",
+      "desc": "Krea2 실시간 생성·LTX2.3 영상 합성·Ideogram4 타이포그래피를 하나로 묶은 ComfyUI 워크플로우 모음 — 중국어·영어 텍스트 렌더링에 강점",
+      "stats": "다운로드 20k · 👍411"
+    },
     {
       "id": "2026-07-gh-mattpocock-skills",
       "name": "mattpocock/skills",

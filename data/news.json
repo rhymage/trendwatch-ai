@@ -1,6 +1,59 @@
 {
-  "updated": "2026-07-14 20:30 KST",
+  "updated": "2026-07-18 20:20 KST",
   "items": [
+    {
+      "id": "2026-07-18-N01",
+      "date": "2026-07-18",
+      "published": "2026-07-17",
+      "title": "중국 문샷AI, 사상 최대 오픈웨이트 모델 'Kimi K3' 공개 — 2.8조 파라미터로 프론티어 벤치마크 경쟁",
+      "summary": "문샷AI가 2.8조 파라미터(1M 토큰 컨텍스트) 오픈웨이트 모델 Kimi K3를 공개했다. Kimi Delta Attention·Attention Residuals 등 신규 아키텍처로 효율을 높였으며, 코딩 벤치마크에서 앤트로픽 오퍼스 4.8을 능가하고 클로드 페이블 5와도 경쟁 가능한 수준이라 주장한다. 서비스는 즉시 시작되고 전체 가중치는 7월 27일 공개 예정.",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3",
+      "source": "Tom's Hardware",
+      "tags": ["LLM"],
+      "importance": "high"
+    },
+    {
+      "id": "2026-07-18-N02",
+      "date": "2026-07-18",
+      "published": "2026-07-15",
+      "title": "미라 무라티의 '싱킹 머신스', 첫 오픈웨이트 모델 'Inkling' 공개",
+      "summary": "전 OpenAI CTO 미라 무라티가 창업한 싱킹 머신스가 첫 공개 모델 Inkling을 출시했다. 975B(활성 41B) MoE 구조로 텍스트·이미지·오디오·비디오 45조 토큰으로 학습됐으며, 최강 모델보다 파인튜닝 커스터마이징에 초점을 맞췄다. 전체 가중치가 허깅페이스에 공개되고 자사 파인튜닝 플랫폼 Tinker에서 즉시 사용 가능하다.",
+      "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
+      "source": "TechCrunch",
+      "tags": ["LLM", "생성형모델"],
+      "importance": "high"
+    },
+    {
+      "id": "2026-07-18-N03",
+      "date": "2026-07-18",
+      "published": "2026-07-14",
+      "title": "엔비디아, 실시간 텍스트→3D 모션 생성 모델 'ARDY' 오픈소스 공개",
+      "summary": "엔비디아 리서치가 텍스트 프롬프트만으로 3D 캐릭터 모션을 프레임 단위로 실시간 스트리밍 생성하는 자기회귀 확산 모델 ARDY를 공개했다. 루트 궤적·키프레임·엔드이펙터 등 운동학적 제약을 추론 시점에 재학습 없이 적용할 수 있어 게임·디지털휴먼·산업 시뮬레이션에 바로 활용 가능하다. SIGGRAPH 2026 논문으로도 채택됐다.",
+      "url": "https://research.nvidia.com/labs/sil/projects/ardy/",
+      "source": "NVIDIA Research",
+      "tags": ["3D", "생성형모델"],
+      "importance": "high"
+    },
+    {
+      "id": "2026-07-18-N04",
+      "date": "2026-07-18",
+      "published": "2026-07-15",
+      "title": "ComfyUI v0.28.0 출시 — SeedVR2·PID 1.5·Seedream 5 Pro 지원 추가, 양자화 성능 개선",
+      "summary": "ComfyUI가 v0.28.0을 출시하며 보안 패치와 함께 SeedVR2, PID 1.5, Seedream 5 Pro 모델 지원을 새로 추가했다. Turing 세대 GPU에서 int4/int8 양자화 모델 성능을 최적화하고, 텍스트 오버레이 노드와 고급 3D 저장 기능도 도입됐다.",
+      "url": "https://github.com/comfyanonymous/ComfyUI/releases",
+      "source": "ComfyUI GitHub Releases",
+      "tags": ["ComfyUI"]
+    },
+    {
+      "id": "2026-07-18-N05",
+      "date": "2026-07-18",
+      "published": "2026-07-14",
+      "title": "딥마인드 CEO 하사비스, 미국 주도 국제 AI 검증기구 설립 제안",
+      "summary": "구글 딥마인드 CEO 데미스 하사비스가 프론티어 AI 모델을 출시 전 심사하는 국제 감시기구 설립을 제안했다. 금융업계 자율규제기구 FINRA를 본뜬 산업 주도 조직으로, 출시 최대 30일 전 자발적으로 모델을 제출해 사이버·생물·기만 능력 등을 검증받는 방식이다. 오픈AI 샘 올트먼도 '신중한 제안'이라며 긍정적으로 평가했다.",
+      "url": "https://www.axios.com/2026/07/14/demis-hassabis-ai-regulation-google-deepmind",
+      "source": "Axios",
+      "tags": ["일반소식", "빅테크플랫폼"]
+    },
     {
       "id": "2026-07-14-N01",
       "date": "2026-07-14",
